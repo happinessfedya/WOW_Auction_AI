@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-26T14:20:16.343074+00:00",
+  "kind": "SYN_LUA_AUTONOMOUS_PASSIVE_BRIDGE",
+  "lua_version": "Lua 5.1",
+  "checks": [
+    "login_schedules_without_recipe_open_or_scan",
+    "two_recipes_per_tick_bound",
+    "saved_checkpoint_resumes_without_requerying_prefix",
+    "unavailable_game_data_not_fabricated_engine_profile",
+    "periodic_failure_preserves_last_good_with_original_clock",
+    "actor_b_nil_does_not_relabel_actor_a_operation",
+    "full_available_scope_over_100_records_without_ring_eviction",
+    "foreign_savedvariables_and_engine_untouched",
+    "combat_pause_and_automatic_resume",
+    "malformed_source_retains_last_good",
+    "storage_limit_retains_incomplete_checkpoint"
+  ],
+  "pass": true,
+  "manual_recipe_open_calls": 0,
+  "manual_scan_calls": 0,
+  "craft_calls": 0,
+  "reload_calls": 0,
+  "constructor_calls": 0,
+  "game_runtime_verified": false,
+  "real_cache_probe": {
+    "kind": "REAL_SAVEDVARIABLES_WITH_SYN_GAME_APIS_UNAVAILABLE",
+    "source_sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+    "source_bytes": 282321,
+    "queued": 70,
+    "processed": 70,
+    "records": 70,
+    "source_counts": {
+      "craftsim_recipeInfos": 75,
+      "craftsim_itemRecipeDB": 72,
+      "craftsim_professionInfos": 75,
+      "craftsim_operationInfos": 38,
+      "craftsim_cachedRecipeIDs": 74
+    },
+    "storage_bytes_estimate": 1097536,
+    "source_statuses": {
+      "craftsim_cache": "observed",
+      "game_recipe_index": "api_unavailable"
+    },
+    "cache_contexts": 18,
+    "foreign_sv_unchanged": true,
+    "observed_live_api_tables": 0,
+    "engine_profiles": 0,
+    "pass": true
+  },
+  "project_hashes": {
+    "addons/WowAuctionBridge/Passive.lua": "11c14eddc6da0f32ef84d747c81130532d424a5a72701491073020caf59418ea",
+    "addons/WowAuctionBridge/Bridge.lua": "f0ebf13050079be746a58d129813de085bd14f85f26822962aefdcf696628592",
+    "addons/WowAuctionBridge/WowAuctionBridge.toc": "72af071751494097f22d8c740007e0fe40e04d65d7173d452dc69863d3ce4790",
+    "wow_auction/knowledge_craftsim.py": "0f08f7c9547de80d0cdb1f10dc750375b44f6a88a7bd72f3689bbd2da73f300c",
+    "tools/verify_stage3_bridge_passive.py": "1f5a17da74da246f934ed3ddfda400844ab5c9674d0deb9c706a0c4eb05ab863"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "verified_at_utc": "2026-10-26T10:26:20.217373+00:00",
+  "normalizer_file_sha256": "74033e80d29351de9eeee9606148c588737a2d83ff2a79b1eac2d22a94f349a1",
+  "network_requests_during_validation": 0,
+  "fixtures_private_only": true,
+  "datasets": [
+    {
+      "dataset": "commodities",
+      "rows": 12162,
+      "bytes": 901361,
+      "sha256": "3e6abfa0cb92988e6d43f0e12cca2c19a7d27249cd0e4a19f9fa88a57393038b",
+      "snapshot_at": 1792996299,
+      "scope": {
+        "game": "retail",
+        "region": "EU",
+        "kind": "commodity",
+        "connected_realm_id": null,
+        "realm_slug": null
+      },
+      "zero_quotes": 1702,
+      "seconds_with_tracemalloc": 0.5448,
+      "peak_traced_bytes": 20718761,
+      "result": "PASS"
+    },
+    {
+      "dataset": "realm_items",
+      "rows": 11030,
+      "bytes": 868751,
+      "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+      "snapshot_at": 1793007098,
+      "scope": {
+        "game": "retail",
+        "region": "EU",
+        "kind": "realm_unresolved",
+        "connected_realm_id": null,
+        "realm_slug": "soulflayer"
+      },
+      "zero_quotes": 4965,
+      "seconds_with_tracemalloc": 0.4676,
+      "peak_traced_bytes": 18912851,
+      "result": "PASS"
+    },
+    {
+      "dataset": "region_items",
+      "rows": 31187,
+      "bytes": 2545285,
+      "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+      "snapshot_at": 1792890147,
+      "scope": {
+        "game": "retail",
+        "region": "EU",
+        "kind": "region_aggregate",
+        "connected_realm_id": null,
+        "realm_slug": null
+      },
+      "zero_quotes": 0,
+      "seconds_with_tracemalloc": 1.819,
+      "peak_traced_bytes": 57034884,
+      "result": "PASS"
+    },
+    {
+      "dataset": "realm_pets",
+      "rows": 961,
+      "bytes": 73693,
+      "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+      "snapshot_at": 1793007098,
+      "scope": {
+        "game": "retail",
+        "region": "EU",
+        "kind": "realm_unresolved",
+        "connected_realm_id": null,
+        "realm_slug": "soulflayer"
+      },
+      "zero_quotes": 87,
+      "seconds_with_tracemalloc": 0.044,
+      "peak_traced_bytes": 1561172,
+      "result": "PASS"
+    },
+    {
+      "dataset": "region_pets",
+      "rows": 978,
+      "bytes": 77953,
+      "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+      "snapshot_at": 1792890147,
+      "scope": {
+        "game": "retail",
+        "region": "EU",
+        "kind": "region_aggregate",
+        "connected_realm_id": null,
+        "realm_slug": null
+      },
+      "zero_quotes": 0,
+      "seconds_with_tracemalloc": 0.0611,
+      "peak_traced_bytes": 1681878,
+      "result": "PASS"
+    }
+  ],
+  "non_data_validation_followup": "Added explicit string type validation for dataset; full fixture data paths unchanged."
+}

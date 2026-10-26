@@ -1,0 +1,141 @@
+{
+  "captured_at": "2026-10-26T13:38:22.903298+00:00",
+  "kind": "REAL_GAME_SAVEDVARIABLES_SECOND_EXPORT_WITH_SOURCE_VALIDATION",
+  "source_sha256": "5617b4c1ccbd1bdb5d908d47f088f6c37d2d9ef957310a54931c546a0449005e",
+  "source_bytes": 61789,
+  "total_rows": 9,
+  "new_031_rows": [
+    {
+      "sequence": 8,
+      "captured_at": 1793021475,
+      "recipe_id": 1233129,
+      "exporter_version": "0.3.1",
+      "capture_error": null,
+      "capture_status": "unsupported",
+      "capture_reasons": [
+        "recraft_or_salvage_profile_not_validated",
+        "zero_output_quote_ambiguous"
+      ],
+      "current_context_status": "unknown_after_session_start",
+      "current_status": "stale",
+      "price_scope": {
+        "required_by_captured_model": [
+          "247811"
+        ],
+        "unused_candidates_without_quote": []
+      },
+      "output_item_id": 242637,
+      "engine_mean_present": true
+    },
+    {
+      "sequence": 9,
+      "captured_at": 1793021476,
+      "recipe_id": 1230869,
+      "exporter_version": "0.3.1",
+      "capture_error": null,
+      "capture_status": "missing_data",
+      "capture_reasons": [
+        "quality_allocation_incomplete"
+      ],
+      "current_context_status": "unknown_after_session_start",
+      "current_status": "stale",
+      "price_scope": {
+        "required_by_captured_model": [
+          "236761",
+          "236767",
+          "236774",
+          "236775",
+          "236776",
+          "236777",
+          "236949",
+          "240991"
+        ],
+        "unused_candidates_without_quote": [
+          "246450",
+          "247719",
+          "247724",
+          "247725",
+          "247726",
+          "247788",
+          "260630"
+        ]
+      },
+      "output_item_id": 241309,
+      "engine_mean_present": true
+    }
+  ],
+  "new_031_capture_failures": 0,
+  "historical_030_capture_failures": 4,
+  "recipe_identification": {
+    "id": 1230869,
+    "name_from_exported_localized_item_link": "Потенциал Света",
+    "profession": "Alchemy",
+    "profession_evidence": "Data/SpecializationData/Midnight/Alchemy.lua:536"
+  },
+  "allocation_evidence": [
+    {
+      "required_quantity": 1,
+      "selected_quantity": 1,
+      "item_ids": [
+        236949
+      ],
+      "cost_mode": "fixed"
+    },
+    {
+      "required_quantity": 5,
+      "selected_quantity": 5,
+      "item_ids": [
+        240991,
+        240990
+      ],
+      "cost_mode": "selected"
+    },
+    {
+      "required_quantity": 8,
+      "selected_quantity": 0,
+      "item_ids": [
+        236761,
+        236767
+      ],
+      "cost_mode": "engine_cheapest_fallback"
+    },
+    {
+      "required_quantity": 3,
+      "selected_quantity": 0,
+      "item_ids": [
+        236776,
+        236777
+      ],
+      "cost_mode": "engine_cheapest_fallback"
+    },
+    {
+      "required_quantity": 3,
+      "selected_quantity": 0,
+      "item_ids": [
+        236774,
+        236775
+      ],
+      "cost_mode": "engine_cheapest_fallback"
+    }
+  ],
+  "source_cost_fallback_reconciles": true,
+  "source_crafting_cost_copper": 1387900,
+  "ui_field_comparison_verified": false,
+  "source_checks": {
+    "optional_candidates_enumerated": "Classes/PriceData.lua:264-282",
+    "unallocated_quality_cheapest_fallback": "Classes/PriceData.lua:120-139",
+    "fresh_local_gear_inventory_also_sets_cached_true": "Modules/TopGear/TopGear.lua:249-255",
+    "gear_cache_flag_does_not_timestamp_selected_gear": true
+  },
+  "source_sha256_by_file": {
+    "Classes/PriceData.lua": "612222f53a23ea376c61fe1a9d263a5ebc941c0b89a1fa681abffa79bfc54d3c",
+    "Modules/TopGear/TopGear.lua": "9a174f75f53663ed54e4d75e5b0511a10e29c0cd47d4d1ed27f1aed6f0cec628",
+    "Data/SpecializationData/Midnight/Alchemy.lua": "3a05c42f05e91750e2a307cc309a0440086035b5243e0e2f029556a1c062c798"
+  },
+  "validation": {
+    "python_targeted_tests": 45,
+    "pass": true,
+    "full_suite": "root_runs_after_integration"
+  },
+  "privacy": "Character identifiers and item hyperlinks omitted."
+}

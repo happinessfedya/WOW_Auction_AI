@@ -1,0 +1,146 @@
+{
+  "captured_at": "2026-10-26T14:26:11.838275+00:00",
+  "kind": "REAL_AUTONOMOUS_LOCAL_POLL",
+  "command": "python -B -m wow_auction knowledge-watch --cycles 2 --interval 1",
+  "cycles": [
+    {
+      "status": "not_due_or_leased",
+      "paid_ai_called": false,
+      "local": {
+        "status": "local_observations_checked",
+        "build": "12.1.5.70575",
+        "game_actions_required": false,
+        "sources": [
+          {
+            "kind": "item_metadata",
+            "status": "artifact_unchanged",
+            "artifact_id": 3,
+            "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+            "build_comparison": "installed_or_supplied"
+          },
+          {
+            "kind": "tsm_crafting_cache",
+            "status": "artifact_unchanged",
+            "artifact_id": 4,
+            "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+            "build_comparison": "installed_or_supplied"
+          },
+          {
+            "kind": "craftsim_cache",
+            "status": "artifact_unchanged",
+            "artifact_id": 5,
+            "source_sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+            "build_comparison": "installed_or_supplied"
+          },
+          {
+            "kind": "craftsim",
+            "status": "artifact_stored",
+            "artifact_id": 7,
+            "source_sha256": "d9d9d2044359a9a01da514011e3087932219f734f62179485debb089136bd2d2",
+            "build_comparison": "installed_or_supplied",
+            "profile_statuses_now": {
+              "stale": 9
+            },
+            "rejected_records": 0,
+            "passive_records": 0
+          }
+        ],
+        "fresh_personal_engine_evaluation_guaranteed": false
+      },
+      "build_context": {
+        "value": "12.1.5.70575",
+        "installed_build_known": true,
+        "basis": "local_build_info"
+      }
+    },
+    {
+      "status": "not_due_or_leased",
+      "paid_ai_called": false,
+      "local": {
+        "status": "local_observations_checked",
+        "build": "12.1.5.70575",
+        "game_actions_required": false,
+        "sources": [
+          {
+            "kind": "item_metadata",
+            "status": "file_unchanged",
+            "artifact_id": 3
+          },
+          {
+            "kind": "tsm_crafting_cache",
+            "status": "file_unchanged",
+            "artifact_id": 4
+          },
+          {
+            "kind": "craftsim_cache",
+            "status": "file_unchanged",
+            "artifact_id": 5
+          },
+          {
+            "kind": "craftsim",
+            "status": "file_unchanged",
+            "artifact_id": 7
+          }
+        ],
+        "fresh_personal_engine_evaluation_guaranteed": false
+      },
+      "build_context": {
+        "value": "12.1.5.70575",
+        "installed_build_known": true,
+        "basis": "local_build_info"
+      }
+    }
+  ],
+  "log_sha256": "eb4f977db50fcddafa5c03b72c4a119b9fd3c2ce7902fe28e27f5f495fef5927",
+  "watcher_left_running": false,
+  "game_control_calls": 0,
+  "fresh_passive_game_runtime_verified": false,
+  "installed_addon_version": "0.3.2",
+  "installed_addon_hashes": {
+    "Bridge.lua": "f0ebf13050079be746a58d129813de085bd14f85f26822962aefdcf696628592",
+    "Passive.lua": "11c14eddc6da0f32ef84d747c81130532d424a5a72701491073020caf59418ea",
+    "WowAuctionBridge.toc": "72af071751494097f22d8c740007e0fe40e04d65d7173d452dc69863d3ce4790"
+  },
+  "source_code_sha256": {
+    "addons/WowAuctionBridge/Bridge.lua": "f0ebf13050079be746a58d129813de085bd14f85f26822962aefdcf696628592",
+    "addons/WowAuctionBridge/Passive.lua": "11c14eddc6da0f32ef84d747c81130532d424a5a72701491073020caf59418ea",
+    "addons/WowAuctionBridge/WowAuctionBridge.toc": "72af071751494097f22d8c740007e0fe40e04d65d7173d452dc69863d3ce4790",
+    "tools/fetch_stage3_corpora.py": "2af6f52870b526728e22cb315a1ec807af633a8aec8df6f5d35d7d7d41f8e1bc",
+    "tools/verify_stage2_market.py": "75acd7598ed02a981047cd9215ad7ebc63d62ec92f3e1a7fa19936c09d61832b",
+    "tools/verify_stage3_bridge.py": "fd111c92e5181119221315325e3487030429e60fac8fd9b688e0b8dbfe37db8e",
+    "tools/verify_stage3_bridge_passive.py": "1f5a17da74da246f934ed3ddfda400844ab5c9674d0deb9c706a0c4eb05ab863",
+    "tools/verify_stage3_catalog.py": "ac67302f9a3de9ba3339c15d887fc63d5b871dfa9102623c0be702b4f97dfdc4",
+    "tools/verify_stage3_package.py": "3f498414e5d02191db12494aeea2ac23fe6a16838fb81b9b24639568e4bec976",
+    "tools/verify_stage3_prior.py": "1475b22bfec189d0e421013ab624d74cfd0728a219ceb6b9d9eb4eb2854a11b8",
+    "wow_auction/__init__.py": "68cc50d91ea4796165ce94c6af3c824c023ee9cbb7871d17d9c60a11124ffa95",
+    "wow_auction/__main__.py": "49e02dac32eeb478031f103f1573a0ee3da5ab7390c1dbc32867bc57aa56889e",
+    "wow_auction/assets.py": "51e0052ffe7f784168595f59de94b2687a6e3eb67d471853c184b689bcfbce80",
+    "wow_auction/file_reader.py": "1d113c68e6404804c3a77f6c30ba820a1ee7aa8492d5b3a5832cdfc27303f67d",
+    "wow_auction/ingestion.py": "78e8cd974e4082c79c2fe102d7e83671f3c93ce94849c48d83f19838694961f7",
+    "wow_auction/knowledge.py": "471a03966127539d51c7f5aad1eb0b156e9c8edc3acb121cfba0a0cc7b2d4621",
+    "wow_auction/knowledge_att.py": "cccf1b9835e06d2e10bdb9703060b8496f825b4eea0a3b66721430515a28537a",
+    "wow_auction/knowledge_cli.py": "c617782e2144fa3d58c745db15648c19f53253f1583abc16e0297bf1cd767c80",
+    "wow_auction/knowledge_craftsim.py": "0f08f7c9547de80d0cdb1f10dc750375b44f6a88a7bd72f3689bbd2da73f300c",
+    "wow_auction/knowledge_items.py": "da8beaebe7e5b4099aad9e51348e368635cce066f584f4345d7a9d7a0980818c",
+    "wow_auction/knowledge_local.py": "2ddc030086b3a6143fec49fed910f15ffa8667026f930ebc0de2ab3362bf33b7",
+    "wow_auction/knowledge_sources.py": "483eb65c3fa4dbf33c44b18a09e950c137abaadb7c095df8eff819f47f493d5e",
+    "wow_auction/knowledge_storage.py": "dd2782bb3d9b0723b05cdde7ee806e084943bea10653bf4ef7a3a0cd33638bd0",
+    "wow_auction/knowledge_transport.py": "ddf1107962d7e13f03a23027628c61337985e70790942fe1f7f684454a865ac2",
+    "wow_auction/knowledge_worker.py": "dafd18f4a361c4b4d7c76ac3c57cdbfd14e9b553c9f250eeb02ef15e0829cc60",
+    "wow_auction/ledger.py": "604192740c82096f61b8c5cc71a1ff594e1cebda9cac4e512bae5864378974b7",
+    "wow_auction/ledger_context.py": "1b431c5aae8bdb1459d9451fd9b60912e9acd5b29fc5ad24e81d3edeba247684",
+    "wow_auction/lua_data.py": "cc8dd2c21e55acd9e9f2dc3515da6e9a968d3fa18c661ffea37cb23b32c042b8",
+    "wow_auction/manual_links.py": "29a680dd7f241fd5b916fe868b5501648ba847fa71f9c0aab5c54623aa9872f2",
+    "wow_auction/market_blizzard.py": "4eb5e41dee091257116656adb4dba59658f23c8cded42b620977df6da2220152",
+    "wow_auction/market_common.py": "df26fd01e89a2cbf326e954cbfbe4022a85b0d415a5750d0aa6b8910c1fb67db",
+    "wow_auction/market_config.py": "656c6c9ccc31ccb925414868eb6e6facc5665c0d5dce01a6adb75f3829e5343d",
+    "wow_auction/market_freshness.py": "ae4a3d08a0bf906b9d06eb4051d0c6a860b839825d8ca68e142036aa5ecd14f4",
+    "wow_auction/market_http.py": "39adbd42cc03a12766faee63d82379141d3137486f0b52701e7f21ef188546f5",
+    "wow_auction/market_policy.py": "6ab53481d5eee609b13b5c4724f1e270330b2f6c69807273389aa11a11e830fd",
+    "wow_auction/market_storage.py": "f0822b6b17674e4d3067a7df348eb346f2bebad3920f0ecdc48daa1f0b43d286",
+    "wow_auction/market_tsm.py": "74033e80d29351de9eeee9606148c588737a2d83ff2a79b1eac2d22a94f349a1",
+    "wow_auction/market_undermine.py": "38a3dbc7250db164028f0da2e30d05e91eeef26c03045a7545769de161e537ae",
+    "wow_auction/market_worker.py": "854e80efbaa021c66d5d11e4179b09be470026fbce7749f5f19a7c1786d5cf62",
+    "wow_auction/storage.py": "a3b90e32e007e7a7a53de6349d4c1ad0297721d13fe9745a0affecf57607166d"
+  }
+}

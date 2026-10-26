@@ -1,0 +1,467 @@
+{
+  "evidence_kind": "REAL",
+  "captured_at_ns": 1793011879636742100,
+  "secrets_used": false,
+  "blizzard_requests": 0,
+  "requests": [
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/commodities.csv",
+      "status": 304,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 10:51:14 GMT",
+        "etag": "\"02b645c50267beff37fd8b14004a07b0\"",
+        "last-modified": "Mon, 26 Oct 2026 06:36:25 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793011876431198100,
+      "elapsed_seconds": 0.6885790000087582,
+      "body_bytes": 0,
+      "wire_bytes": 0,
+      "conditional": true,
+      "authorization_sent": false
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/items.csv",
+      "status": 304,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 10:51:15 GMT",
+        "etag": "\"2fca5b5d2f7bfedd79c898f2bc6ef514\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793011876872865100,
+      "elapsed_seconds": 0.4159819000051357,
+      "body_bytes": 0,
+      "wire_bytes": 0,
+      "conditional": true,
+      "authorization_sent": false
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/items.csv",
+      "status": 304,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 10:51:16 GMT",
+        "etag": "\"44358aac7b50994db374f479281b10cd\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793011878611401700,
+      "elapsed_seconds": 1.6893109999946319,
+      "body_bytes": 0,
+      "wire_bytes": 0,
+      "conditional": true,
+      "authorization_sent": false
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/pets.csv",
+      "status": 304,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 10:51:17 GMT",
+        "etag": "\"f034f6f725a45fc9f9a29b8f94c1388c\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793011879225853900,
+      "elapsed_seconds": 0.5753480000421405,
+      "body_bytes": 0,
+      "wire_bytes": 0,
+      "conditional": true,
+      "authorization_sent": false
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/pets.csv",
+      "status": 304,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 10:51:17 GMT",
+        "etag": "\"87438c84ca77277ff802e09c500086f2\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793011879531733900,
+      "elapsed_seconds": 0.2952200000290759,
+      "body_bytes": 0,
+      "wire_bytes": 0,
+      "conditional": true,
+      "authorization_sent": false
+    }
+  ],
+  "before": [
+    {
+      "job_key": "e1aea7766097f62d1b79ff33eef2ef9f4a9e08d4cb17581bb64dc3071e372475",
+      "provider": "tsm",
+      "dataset": "commodities",
+      "health": "unavailable",
+      "next_due_ns": 1793026263500678200,
+      "failures": 0,
+      "snapshot": {
+        "id": 1,
+        "sha256": "3e6abfa0cb92988e6d43f0e12cca2c19a7d27249cd0e4a19f9fa88a57393038b",
+        "record_count": 12162,
+        "source_snapshot_at": 1792996299,
+        "source_generated_at": null,
+        "received_at_ns": 1793011013423486000,
+        "available_at_ns": 1793011013633208000,
+        "expires_at_ns": 1793025413423486000,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "commodity",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "83847451bd3dcb9cdf0c9d9e44527d05e9886d94d9dfdb250a5a20b759bd037f",
+      "provider": "tsm",
+      "dataset": "realm_items",
+      "health": "accepted",
+      "next_due_ns": 1793025413698958500,
+      "failures": 0,
+      "snapshot": {
+        "id": 2,
+        "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+        "record_count": 11030,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793011014657942700,
+        "available_at_ns": 1793011014848191600,
+        "expires_at_ns": 1793025414657942700,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e7c5b30f42597cab3678a1f761ffa1d975e707526832cbfb8a58c8c311b53dc6",
+      "provider": "tsm",
+      "dataset": "region_items",
+      "health": "accepted",
+      "next_due_ns": 1793025414909578300,
+      "failures": 0,
+      "snapshot": {
+        "id": 3,
+        "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+        "record_count": 31187,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793011018481697800,
+        "available_at_ns": 1793011019053630600,
+        "expires_at_ns": 1793025418481697800,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e4d1c4f27353c841b8caa55b6ca69dafaaaed15bc3ffb7fb70a7e9f7852e3761",
+      "provider": "tsm",
+      "dataset": "realm_pets",
+      "health": "accepted",
+      "next_due_ns": 1793025419219837200,
+      "failures": 0,
+      "snapshot": {
+        "id": 4,
+        "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+        "record_count": 961,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793011019590670500,
+        "available_at_ns": 1793011019609247300,
+        "expires_at_ns": 1793025419590670500,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "9174fdc27cb4277efe62a06e028848fbf21d30de30709138d3ef824c570ae368",
+      "provider": "tsm",
+      "dataset": "region_pets",
+      "health": "accepted",
+      "next_due_ns": 1793025419616909800,
+      "failures": 0,
+      "snapshot": {
+        "id": 5,
+        "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+        "record_count": 978,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793011020147877800,
+        "available_at_ns": 1793011020172237600,
+        "expires_at_ns": 1793025420147877800,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "dbd205218cc660765ca309b6c6b1b23148b544dfa05ffd181097aa093fdaaa8f",
+      "provider": "undermine",
+      "dataset": "commodity_summary",
+      "health": "disabled",
+      "next_due_ns": 1793014620195392100,
+      "failures": 0,
+      "gap_count": 0
+    }
+  ],
+  "result": {
+    "imports": [
+      {
+        "provider": "tsm",
+        "dataset": "commodities",
+        "status": "unchanged",
+        "snapshot_id": 1
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_items",
+        "status": "unchanged",
+        "snapshot_id": 2
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_items",
+        "status": "unchanged",
+        "snapshot_id": 3
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_pets",
+        "status": "unchanged",
+        "snapshot_id": 4
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_pets",
+        "status": "unchanged",
+        "snapshot_id": 5
+      },
+      {
+        "provider": "undermine",
+        "dataset": "commodity_summary",
+        "status": "disabled"
+      }
+    ],
+    "expired_content_records": 0
+  },
+  "after": [
+    {
+      "job_key": "e1aea7766097f62d1b79ff33eef2ef9f4a9e08d4cb17581bb64dc3071e372475",
+      "provider": "tsm",
+      "dataset": "commodities",
+      "health": "unchanged",
+      "next_due_ns": 1793026275729672200,
+      "failures": 0,
+      "snapshot": {
+        "id": 1,
+        "sha256": "3e6abfa0cb92988e6d43f0e12cca2c19a7d27249cd0e4a19f9fa88a57393038b",
+        "record_count": 12162,
+        "source_snapshot_at": 1792996299,
+        "source_generated_at": null,
+        "received_at_ns": 1793011013423486000,
+        "available_at_ns": 1793011013633208000,
+        "expires_at_ns": 1793025413423486000,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "commodity",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "83847451bd3dcb9cdf0c9d9e44527d05e9886d94d9dfdb250a5a20b759bd037f",
+      "provider": "tsm",
+      "dataset": "realm_items",
+      "health": "unchanged",
+      "next_due_ns": 1793026276445537300,
+      "failures": 0,
+      "snapshot": {
+        "id": 2,
+        "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+        "record_count": 11030,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793011014657942700,
+        "available_at_ns": 1793011014848191600,
+        "expires_at_ns": 1793025414657942700,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e7c5b30f42597cab3678a1f761ffa1d975e707526832cbfb8a58c8c311b53dc6",
+      "provider": "tsm",
+      "dataset": "region_items",
+      "health": "unchanged",
+      "next_due_ns": 1793026276889026700,
+      "failures": 0,
+      "snapshot": {
+        "id": 3,
+        "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+        "record_count": 31187,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793011018481697800,
+        "available_at_ns": 1793011019053630600,
+        "expires_at_ns": 1793025418481697800,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e4d1c4f27353c841b8caa55b6ca69dafaaaed15bc3ffb7fb70a7e9f7852e3761",
+      "provider": "tsm",
+      "dataset": "realm_pets",
+      "health": "unchanged",
+      "next_due_ns": 1793026278645399000,
+      "failures": 0,
+      "snapshot": {
+        "id": 4,
+        "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+        "record_count": 961,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793011019590670500,
+        "available_at_ns": 1793011019609247300,
+        "expires_at_ns": 1793025419590670500,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "9174fdc27cb4277efe62a06e028848fbf21d30de30709138d3ef824c570ae368",
+      "provider": "tsm",
+      "dataset": "region_pets",
+      "health": "unchanged",
+      "next_due_ns": 1793026279231328100,
+      "failures": 0,
+      "snapshot": {
+        "id": 5,
+        "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+        "record_count": 978,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793011020147877800,
+        "available_at_ns": 1793011020172237600,
+        "expires_at_ns": 1793025420147877800,
+        "content_status": "available",
+        "usable": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        }
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "dbd205218cc660765ca309b6c6b1b23148b544dfa05ffd181097aa093fdaaa8f",
+      "provider": "undermine",
+      "dataset": "commodity_summary",
+      "health": "disabled",
+      "next_due_ns": 1793015479538083700,
+      "failures": 0,
+      "gap_count": 0
+    }
+  ],
+  "metrics": {
+    "snapshots": 5,
+    "raw_bytes": 4467043,
+    "normalized_bytes": 30717668
+  },
+  "attempt_summary": [
+    {
+      "status": "accepted",
+      "http_status": 200,
+      "count": 5
+    },
+    {
+      "status": "blizzard_credentials_required",
+      "http_status": null,
+      "count": 1
+    },
+    {
+      "status": "unchanged",
+      "http_status": 304,
+      "count": 5
+    },
+    {
+      "status": "verified_connected_realm_required",
+      "http_status": null,
+      "count": 1
+    }
+  ],
+  "elapsed_seconds": 4.009239399980288,
+  "integrity": "ok",
+  "schema_version": 2,
+  "database_file_bytes": 53948416,
+  "limitations": [
+    "TSM aggregates only",
+    "Not a natural publication cadence experiment",
+    "UE authorized payload and depth not verified",
+    "No sales or execution inferred"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "captured_at_ns": 1793012339394630200,
+  "reason": "Research raw duplicates must not outlive runtime retention",
+  "files": [
+    {
+      "name": "commodities.csv",
+      "sha256": "3e6abfa0cb92988e6d43f0e12cca2c19a7d27249cd0e4a19f9fa88a57393038b",
+      "bytes": 901361,
+      "status": "research_duplicate_removed",
+      "retained_market_copy": "subject_to_its_existing_expiry"
+    },
+    {
+      "name": "realm-items.csv",
+      "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+      "bytes": 868751,
+      "status": "research_duplicate_removed",
+      "retained_market_copy": "subject_to_its_existing_expiry"
+    },
+    {
+      "name": "region-items.csv",
+      "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+      "bytes": 2545285,
+      "status": "research_duplicate_removed",
+      "retained_market_copy": "subject_to_its_existing_expiry"
+    },
+    {
+      "name": "realm-pets.csv",
+      "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+      "bytes": 73693,
+      "status": "research_duplicate_removed",
+      "retained_market_copy": "subject_to_its_existing_expiry"
+    },
+    {
+      "name": "region-pets.csv",
+      "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+      "bytes": 77953,
+      "status": "research_duplicate_removed",
+      "retained_market_copy": "subject_to_its_existing_expiry"
+    }
+  ],
+  "game_files_touched": false,
+  "stage1_files_touched": false
+}

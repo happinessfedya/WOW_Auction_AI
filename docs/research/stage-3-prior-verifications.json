@@ -1,0 +1,398 @@
+{
+  "kind": "REAL_READ_ONLY",
+  "captured_at_utc": "2026-10-26T13:01:07.534120+00:00",
+  "review_register_sha256": "9bd14e8cfcc25f708be078242ca9b7bf385704228d9ff481651844bc898e5ea0",
+  "review_stage2_r2_sha256": "d37576cbd6d97e261ec868edf44c879dfa71292553acf52f3bb17b112152aa9e",
+  "build": "12.1.5.70575",
+  "build_info_sha256": "fe10c3051fdca84e01d651a4535c91955b4f5c559a3c1262ef0316b6b5d4e6a5",
+  "saved_variables": [
+    {
+      "addon": "GX",
+      "sha256": "42dc4e230b7bc54a42396f794774d1435bb4969664fdd2380a15847ea1bffbf3",
+      "bytes": 670,
+      "written_at_ns": 1793019076112352900,
+      "changed_since_stage2_r2": true
+    },
+    {
+      "addon": "BagSync",
+      "sha256": "ef6acd794cf775a843932bbee0388ad9e9a84e52ae14fd3bbf5991f2167b6cc2",
+      "bytes": 35180,
+      "written_at_ns": 1793019076030132400,
+      "changed_since_stage2_r2": true
+    },
+    {
+      "addon": "TradeSkillMaster",
+      "sha256": "5ea9a2c031e9fd6a386aebafbb5d0d4c0a7e7a017e374dd4ba552222ca4e2e50",
+      "bytes": 1594254,
+      "written_at_ns": 1793019076142510200,
+      "changed_since_stage2_r2": true
+    },
+    {
+      "addon": "CraftSim",
+      "sha256": "e480ebbde742bf5220ecc6f52a70064a7bc78e007a145de07b65486eedd5be22",
+      "bytes": 270924,
+      "written_at_ns": 1793019076043509600,
+      "changed_since_stage2_r2": true
+    }
+  ],
+  "account_scopes": 1,
+  "ledger": {
+    "rows": 41,
+    "by_family": {
+      "csvBuys": 7,
+      "csvExpense": 4,
+      "csvSales": 30
+    },
+    "by_method": {
+      "Auction": 8,
+      "none": 4,
+      "Vendor": 29
+    },
+    "by_money_type": {
+      "none": 37,
+      "Repair Bill": 4
+    },
+    "auction_sales": 1,
+    "classification": {
+      "purchase": 7,
+      "reported_expense": 4,
+      "sale": 30
+    },
+    "pnl_status": "unknown"
+  },
+  "assets": {
+    "item_rows": 254,
+    "by_location": {
+      "bag": 74,
+      "bank": 20,
+      "equipbags": 16,
+      "equip": 81,
+      "warband": 37,
+      "auction": 26
+    },
+    "by_tradeability": {
+      "unknown": 157,
+      "excluded_equipment": 97
+    },
+    "containers_without_observed_at": 55,
+    "cash_observations": 10,
+    "view_top_level_keys": [
+      "cash",
+      "cash_status",
+      "conflicts",
+      "containers",
+      "current_cash_copper",
+      "current_nav_copper",
+      "identity_mapping",
+      "inventory_current_total",
+      "inventory_observations",
+      "items",
+      "observed_cash_copper",
+      "possible_stale_overlap_variants",
+      "warnings"
+    ]
+  },
+  "craftsim": {
+    "repositories": [
+      {
+        "name": "customerHistoryDB",
+        "version": 3,
+        "entry_count": 0
+      },
+      {
+        "name": "optimizationOptionsDB",
+        "version": 2,
+        "entry_count": 3
+      },
+      {
+        "name": "itemOptimizedCostsDB",
+        "version": 4,
+        "entry_count": 1
+      },
+      {
+        "name": "itemRecipeDB",
+        "version": 4,
+        "entry_count": 71
+      },
+      {
+        "name": "patronMoxieValuesDB",
+        "version": 1,
+        "entry_count": 0
+      },
+      {
+        "name": "optionsDB",
+        "version": 2,
+        "entry_count": 86
+      },
+      {
+        "name": "itemCountDB",
+        "version": 3,
+        "entry_count": 2
+      },
+      {
+        "name": "craftListsDB",
+        "version": 3,
+        "entry_count": null
+      },
+      {
+        "name": "craftQueueDB",
+        "version": 1,
+        "entry_count": 14
+      },
+      {
+        "name": "multicraftPreloadDB",
+        "version": 1,
+        "entry_count": 2
+      },
+      {
+        "name": "crafterDB",
+        "version": 7,
+        "entry_count": 18
+      },
+      {
+        "name": "priceOverrideDB",
+        "version": 1,
+        "entry_count": 2
+      },
+      {
+        "name": "lastCraftingCostDB",
+        "version": 1,
+        "entry_count": 0
+      },
+      {
+        "name": "recipeSubCrafterDB",
+        "version": 3,
+        "entry_count": 44
+      }
+    ],
+    "last_crafting_cost_count": 0,
+    "calculation_status": "missing_data",
+    "engine_evaluation_available": false
+  },
+  "item_metadata": {
+    "schema_version": 1,
+    "source": "TSMItemInfoDB",
+    "version_str": "19,ruRU,12.1.5,70575",
+    "locale": "ruRU",
+    "game_build": "12.1.5.70575",
+    "row_count": 18986,
+    "status": "build_matches_record_age_unknown",
+    "scope": "local_cache_only",
+    "redistribution": "not_authorized_by_this_decoder",
+    "limitations": [
+      "individual_record_observation_time_missing",
+      "isBOP_is_template_acquire_or_quest_flag_not_instance_binding",
+      "false_isBOP_does_not_prove_tradeability",
+      "TSM_item_keys_do_not_prove_cross_source_variant_equivalence",
+      "craftedQuality_is_source_enum_not_normalized_tier",
+      "cache_does_not_prove_global_item_coverage"
+    ]
+  },
+  "metadata_statistics": {
+    "kind_counts": {
+      "item": 18066,
+      "battle_pet": 920
+    },
+    "non_base_source_keys": 132,
+    "isBOP_counts": {
+      "None": 268,
+      "0": 18718
+    },
+    "inventory_base_id_matches_only": {
+      "base_flag_not_bop": 222,
+      "no_base_match": 32
+    }
+  },
+  "installed_tsm_contract_source_sha256": {
+    "LibTSMTypes/Source/Item/Classes/ItemInfoSerializer.lua": "edd53995e894f72d013379aa9a22eaf1b2071bdd48338accd4733f6262bb979f",
+    "LibTSMTypes/Source/Item/ItemInfoCache.lua": "04c4edf221c5881b9e5861a97147f94aeb8cc07962985fd72f9388de193f7408",
+    "LibTSMUtil/Source/BaseType/LongString.lua": "3ae3380274c76a6a8bf4a7f7bd813f1b8b73e0a1ab3c9e115ffa6601d1a5cf02",
+    "LibTSMService/Source/Item/ItemInfo.lua": "f5ad00678794a79137f71b72d04c7daf92048f704e04b9bdc2fbf449c5aab9ed",
+    "LibTSMWoW/Source/API/Item.lua": "a1068257a2924f2c5ce6720253a03719c2cb3313543205975a15d58382df8ed1",
+    "LibTSMApp/Source/Config/ItemInfoConfig.lua": "34f0fc5c4c0175f8be5d42e7c8dee06c3e18cf16637a084b7e2d62c15939b408"
+  },
+  "limitations": [
+    "No independent game UI observation",
+    "No real PC sleep or offline/backfill experiment",
+    "No source-policy change",
+    "No UE or Blizzard access",
+    "No automatic closure of reviewer checks",
+    "New metadata does not establish binding of a physical inventory instance"
+  ],
+  "local_evidence_directory": ".private/stage3-prior-inputs/20261026T130107534120Z",
+  "database_files_opened": false,
+  "secrets_read": false,
+  "game_actions": false,
+  "source_files_still_same_after_read": true,
+  "market": {
+    "captured_at_utc": "2026-10-26T12:57:42.376291+00:00",
+    "probe_sha256": "b5cc1835a8f65337fdbcf1a6db745710fafdf3e211cd35f593b0d430e29e447b",
+    "comparison_baseline": "docs/stage2-r1-final-live-evidence.json",
+    "request_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      304,
+      304,
+      304,
+      304,
+      304
+    ],
+    "secret_loader_calls": 0,
+    "authorization_sent": false,
+    "snapshots": [
+      {
+        "dataset": "commodities",
+        "sha256": "963ee30c408a754a84abfa3467d7b0c1001985dd8b7f1d00709c102080a6cb16",
+        "source_snapshot_at": 1793007098,
+        "received_at_ns": 1793019444817977900,
+        "available_at_ns": 1793019445042094800,
+        "record_count": 12162,
+        "changed_sha256": false,
+        "changed_source_clock": false
+      },
+      {
+        "dataset": "realm_items",
+        "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+        "source_snapshot_at": 1793007098,
+        "received_at_ns": 1793019446041108300,
+        "available_at_ns": 1793019446254984500,
+        "record_count": 11030,
+        "changed_sha256": false,
+        "changed_source_clock": false
+      },
+      {
+        "dataset": "region_items",
+        "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+        "source_snapshot_at": 1792890147,
+        "received_at_ns": 1793019449208427600,
+        "available_at_ns": 1793019449825021600,
+        "record_count": 31187,
+        "changed_sha256": false,
+        "changed_source_clock": false
+      },
+      {
+        "dataset": "realm_pets",
+        "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+        "source_snapshot_at": 1793007098,
+        "received_at_ns": 1793019450925363300,
+        "available_at_ns": 1793019450950363600,
+        "record_count": 961,
+        "changed_sha256": false,
+        "changed_source_clock": false
+      },
+      {
+        "dataset": "region_pets",
+        "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+        "source_snapshot_at": 1792890147,
+        "received_at_ns": 1793019451741857900,
+        "available_at_ns": 1793019451773313600,
+        "record_count": 978,
+        "changed_sha256": false,
+        "changed_source_clock": false
+      }
+    ],
+    "integrity": "ok",
+    "elapsed_seconds": 19.807746900012717,
+    "temporary_raw_database_removed": true
+  },
+  "supplemental_validation": {
+    "captured_at_utc": "2026-10-26T13:03:33.822543+00:00",
+    "probe_sha256": "5bad56104635db8bf2769cf960c5f3a74ee04dfa3a2e82f289d5f8c8db35b75b",
+    "source_bytes_match_original": true,
+    "assets": {
+      "item_rows": 254,
+      "by_location": {
+        "bag": 74,
+        "bank": 20,
+        "equipbags": 16,
+        "equip": 81,
+        "warband": 37,
+        "auction": 26
+      },
+      "by_tradeability": {
+        "unknown": 157,
+        "excluded_equipment": 97
+      },
+      "containers_without_observed_at": 55,
+      "cash_observations": 10,
+      "selected_cash_observations": 5,
+      "cash_conflicts": 0,
+      "current_cash_copper_unknown": true,
+      "current_nav_copper_unknown": true
+    },
+    "import_validation": {
+      "database": "isolated_temporary_deleted",
+      "first": [
+        {
+          "addon": "GX",
+          "status": "accepted"
+        },
+        {
+          "addon": "BagSync",
+          "status": "accepted"
+        },
+        {
+          "addon": "TradeSkillMaster",
+          "status": "accepted"
+        },
+        {
+          "addon": "CraftSim",
+          "status": "accepted"
+        }
+      ],
+      "second": [
+        {
+          "addon": "GX",
+          "status": "unchanged"
+        },
+        {
+          "addon": "BagSync",
+          "status": "unchanged"
+        },
+        {
+          "addon": "TradeSkillMaster",
+          "status": "unchanged"
+        },
+        {
+          "addon": "CraftSim",
+          "status": "unchanged"
+        }
+      ],
+      "snapshots": 4,
+      "ledger_canonical_rows": 41,
+      "integrity": "ok",
+      "foreign_key_errors": 0,
+      "sale_observations": [
+        {
+          "quantity": 103,
+          "unit_amount_copper": 11115,
+          "total_estimate_copper": 1144845,
+          "total_lower_copper": 1144794,
+          "total_upper_copper": 1144896,
+          "price_semantics": "net_after_ah_cut_unit_rounded",
+          "rounding_bounds_status": "bounded_net_invoice_rounding",
+          "event_time_semantics": "mail_derived_event_estimate",
+          "ah_cut_already_applied": true,
+          "profit_eligible": false
+        }
+      ],
+      "temporary_database_removed": true,
+      "old_pair_comparison": {
+        "old_sha256": "5f464a51b30371b0a2d3d4e5d8cf68b0e181d994eda87e3a1fc05540c32d1aa7",
+        "old_rows": 2,
+        "new_rows": 41,
+        "revisions_by_kind": {
+          "new_source_observation": 39
+        },
+        "repeat_events": 0,
+        "repeat_revisions": 0,
+        "limitation": "Old two-row capture does not cover all 30 rows observed during stage2 R2"
+      }
+    },
+    "source_files_still_same_after_read": true,
+    "existing_database_files_opened": false
+  }
+}

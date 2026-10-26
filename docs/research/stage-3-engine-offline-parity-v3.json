@@ -1,0 +1,1343 @@
+{
+  "captured_at": "2026-10-26T15:22:49.611717+00:00",
+  "evidence_kind": "SOURCE_AND_SYN",
+  "live_game_test": false,
+  "whole_constructor_outside_wow": false,
+  "craftsim_version": "27.0.7",
+  "source_sha256": {
+    "Pricing/ProfitCalculation.lua": "4cb252683f0f49fc0038d027ce26cc1d770c9f9733308a25ba30eff144c17980",
+    "Classes/ResultData.lua": "f1db789286f376bb650b1c1a24a0536bbb22d4ab526ba161c0ede47443fb5444",
+    "Classes/PriceData.lua": "612222f53a23ea376c61fe1a9d263a5ebc941c0b89a1fa681abffa79bfc54d3c",
+    "Modules/RecipeInfo/RecipeInfo.lua": "3c6a461aa8806a304f10ddaa104b19de9599e7e4683a2235f1b1e639996628c2",
+    "Classes/RecipeData.lua": "4ec007b240c784ecfed3e9d99f5511c4bcea6b13bebefcfec0833bed14e5ae44"
+  },
+  "formula_cases": 149,
+  "quality_boundary_cases": 100,
+  "maximum_absolute_error": "2E-10",
+  "all_pass": true,
+  "cases": [
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 1,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 0,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 20,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 0,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 20,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": false,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": false,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 0,
+      "pass": true
+    },
+    {
+      "base": 5,
+      "mc_percent": 100,
+      "res_percent": 100,
+      "supports_mc": true,
+      "concentrating": true,
+      "deposit": 1000,
+      "pass": true
+    },
+    {
+      "case": "no_stats",
+      "pass": true
+    },
+    {
+      "case": "optional",
+      "pass": true
+    },
+    {
+      "case": "finishing",
+      "pass": true
+    },
+    {
+      "case": "selectable",
+      "pass": true
+    },
+    {
+      "case": "mixed_qualities",
+      "pass": true
+    }
+  ],
+  "python_sha256": "4a40d46f74962289bc80b046e9aee67c64fe044ab9f8a19160496e7f976c6c0c",
+  "limitations": [
+    "Synthetic primitive inputs; no real character context proof",
+    "Finite observed allocations, no global optimizer proof",
+    "Stock CraftSim conditional means are not a full integer item PMF",
+    "CraftSim double deposit retained for supported statistics branches"
+  ]
+}

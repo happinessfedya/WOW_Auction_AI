@@ -1,0 +1,1071 @@
+{
+  "kind": "REAL",
+  "captured_at_utc": "2026-10-26T12:17:44.900386+00:00",
+  "blizzard_requests": 0,
+  "secret_loader_calls": 0,
+  "synthetic_invalid_disabled_ue_environment": true,
+  "asset_database_and_game_files_opened": false,
+  "requests": [
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/commodities.csv",
+      "http_status": 200,
+      "authorization_sent": false,
+      "if_none_match": null,
+      "if_modified_since": null,
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:32 GMT",
+        "content-type": "text/csv; charset=utf-8",
+        "content-length": "901725",
+        "etag": "\"fa308b2bba9339e22ef4d43b47c4fbf3\"",
+        "last-modified": "Mon, 26 Oct 2026 09:36:27 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017054244399600,
+      "elapsed_seconds": 0.9944208000088111,
+      "body_bytes": 901725,
+      "wire_bytes": 901725
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/items.csv",
+      "http_status": 200,
+      "authorization_sent": false,
+      "if_none_match": null,
+      "if_modified_since": null,
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:33 GMT",
+        "content-type": "text/csv; charset=utf-8",
+        "content-length": "868751",
+        "etag": "\"2fca5b5d2f7bfedd79c898f2bc6ef514\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017055498300400,
+      "elapsed_seconds": 0.9122696000267752,
+      "body_bytes": 868751,
+      "wire_bytes": 868751
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/items.csv",
+      "http_status": 200,
+      "authorization_sent": false,
+      "if_none_match": null,
+      "if_modified_since": null,
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:34 GMT",
+        "content-type": "text/csv; charset=utf-8",
+        "content-length": "2545285",
+        "etag": "\"44358aac7b50994db374f479281b10cd\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017056853163300,
+      "elapsed_seconds": 1.1054199999780394,
+      "body_bytes": 2545285,
+      "wire_bytes": 2545285
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/pets.csv",
+      "http_status": 200,
+      "authorization_sent": false,
+      "if_none_match": null,
+      "if_modified_since": null,
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:36 GMT",
+        "content-type": "text/csv; charset=utf-8",
+        "content-length": "73693",
+        "etag": "\"f034f6f725a45fc9f9a29b8f94c1388c\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017058669763600,
+      "elapsed_seconds": 0.8700349000282586,
+      "body_bytes": 73693,
+      "wire_bytes": 73693
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/pets.csv",
+      "http_status": 200,
+      "authorization_sent": false,
+      "if_none_match": null,
+      "if_modified_since": null,
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:37 GMT",
+        "content-type": "text/csv; charset=utf-8",
+        "content-length": "77953",
+        "etag": "\"87438c84ca77277ff802e09c500086f2\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017059379056500,
+      "elapsed_seconds": 0.6687640000018291,
+      "body_bytes": 77953,
+      "wire_bytes": 77953
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/commodities.csv",
+      "http_status": 304,
+      "authorization_sent": false,
+      "if_none_match": "\"fa308b2bba9339e22ef4d43b47c4fbf3\"",
+      "if_modified_since": "Mon, 26 Oct 2026 09:36:27 GMT",
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:39 GMT",
+        "etag": "\"fa308b2bba9339e22ef4d43b47c4fbf3\"",
+        "last-modified": "Mon, 26 Oct 2026 09:36:27 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017061551452600,
+      "elapsed_seconds": 0.7381375000113621,
+      "body_bytes": 0,
+      "wire_bytes": 0
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/items.csv",
+      "http_status": 304,
+      "authorization_sent": false,
+      "if_none_match": "\"2fca5b5d2f7bfedd79c898f2bc6ef514\"",
+      "if_modified_since": "Mon, 26 Oct 2026 09:38:37 GMT",
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:40 GMT",
+        "etag": "\"2fca5b5d2f7bfedd79c898f2bc6ef514\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017062292606100,
+      "elapsed_seconds": 0.6922752000391483,
+      "body_bytes": 0,
+      "wire_bytes": 0
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/items.csv",
+      "http_status": 304,
+      "authorization_sent": false,
+      "if_none_match": "\"44358aac7b50994db374f479281b10cd\"",
+      "if_modified_since": "Mon, 26 Oct 2026 00:31:38 GMT",
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:41 GMT",
+        "etag": "\"44358aac7b50994db374f479281b10cd\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017063026727200,
+      "elapsed_seconds": 0.6697126000071876,
+      "body_bytes": 0,
+      "wire_bytes": 0
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/realm/soulflayer/pets.csv",
+      "http_status": 304,
+      "authorization_sent": false,
+      "if_none_match": "\"f034f6f725a45fc9f9a29b8f94c1388c\"",
+      "if_modified_since": "Mon, 26 Oct 2026 09:38:37 GMT",
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:42 GMT",
+        "etag": "\"f034f6f725a45fc9f9a29b8f94c1388c\"",
+        "last-modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017063779068000,
+      "elapsed_seconds": 0.6771879000007175,
+      "body_bytes": 0,
+      "wire_bytes": 0
+    },
+    {
+      "url": "https://public-data.tradeskillmaster.com/retail/eu/region/pets.csv",
+      "http_status": 304,
+      "authorization_sent": false,
+      "if_none_match": "\"87438c84ca77277ff802e09c500086f2\"",
+      "if_modified_since": "Mon, 26 Oct 2026 00:31:38 GMT",
+      "response_headers": {
+        "date": "Mon, 26 Oct 2026 12:17:42 GMT",
+        "etag": "\"87438c84ca77277ff802e09c500086f2\"",
+        "last-modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+        "cache-control": "max-age=14400"
+      },
+      "received_at_ns": 1793017064502422500,
+      "elapsed_seconds": 0.7061251000268385,
+      "body_bytes": 0,
+      "wire_bytes": 0
+    }
+  ],
+  "first": {
+    "imports": [
+      {
+        "provider": "tsm",
+        "dataset": "commodities",
+        "status": "accepted",
+        "snapshot_id": 1,
+        "records": 12162,
+        "body_bytes": 901725,
+        "wire_bytes": 901725,
+        "elapsed_seconds": 0.9944208000088111
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_items",
+        "status": "accepted",
+        "snapshot_id": 2,
+        "records": 11030,
+        "body_bytes": 868751,
+        "wire_bytes": 868751,
+        "elapsed_seconds": 0.9122696000267752
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_items",
+        "status": "accepted",
+        "snapshot_id": 3,
+        "records": 31187,
+        "body_bytes": 2545285,
+        "wire_bytes": 2545285,
+        "elapsed_seconds": 1.1054199999780394
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_pets",
+        "status": "accepted",
+        "snapshot_id": 4,
+        "records": 961,
+        "body_bytes": 73693,
+        "wire_bytes": 73693,
+        "elapsed_seconds": 0.8700349000282586
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_pets",
+        "status": "accepted",
+        "snapshot_id": 5,
+        "records": 978,
+        "body_bytes": 77953,
+        "wire_bytes": 77953,
+        "elapsed_seconds": 0.6687640000018291
+      },
+      {
+        "provider": "undermine",
+        "dataset": "commodity_summary",
+        "status": "disabled"
+      }
+    ],
+    "expired_content_records": 0
+  },
+  "initial_status": [
+    {
+      "job_key": "e1aea7766097f62d1b79ff33eef2ef9f4a9e08d4cb17581bb64dc3071e372475",
+      "provider": "tsm",
+      "dataset": "commodities",
+      "health": "accepted",
+      "next_due_ns": 1793031453247380000,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "snapshot": {
+        "id": 1,
+        "sha256": "963ee30c408a754a84abfa3467d7b0c1001985dd8b7f1d00709c102080a6cb16",
+        "record_count": 12162,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017054244399600,
+        "available_at_ns": 1793017054522512800,
+        "expires_at_ns": 1793031454244399600,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "commodity",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9961,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 5.1772475,
+        "available_age_seconds": 4.8991343,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9961,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "83847451bd3dcb9cdf0c9d9e44527d05e9886d94d9dfdb250a5a20b759bd037f",
+      "provider": "tsm",
+      "dataset": "realm_items",
+      "health": "accepted",
+      "next_due_ns": 1793031454583020900,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "snapshot": {
+        "id": 2,
+        "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+        "record_count": 11030,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017055498300400,
+        "available_at_ns": 1793017055691566800,
+        "expires_at_ns": 1793031455498300400,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9961,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 3.9233467,
+        "available_age_seconds": 3.7300803,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9961,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e7c5b30f42597cab3678a1f761ffa1d975e707526832cbfb8a58c8c311b53dc6",
+      "provider": "tsm",
+      "dataset": "region_items",
+      "health": "accepted",
+      "next_due_ns": 1793031455745916200,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "snapshot": {
+        "id": 3,
+        "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+        "record_count": 31187,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793017056853163300,
+        "available_at_ns": 1793017057630101100,
+        "expires_at_ns": 1793031456853163300,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": true,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 126912,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 2.5684838,
+        "available_age_seconds": 1.791546,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 126912,
+          "max_age_seconds": 172800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e4d1c4f27353c841b8caa55b6ca69dafaaaed15bc3ffb7fb70a7e9f7852e3761",
+      "provider": "tsm",
+      "dataset": "realm_pets",
+      "health": "accepted",
+      "next_due_ns": 1793031457795336300,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "snapshot": {
+        "id": 4,
+        "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+        "record_count": 961,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017058669763600,
+        "available_at_ns": 1793017058697179500,
+        "expires_at_ns": 1793031458669763600,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "base_species_only"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9961,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 0.7518835,
+        "available_age_seconds": 0.7244676,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9961,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "9174fdc27cb4277efe62a06e028848fbf21d30de30709138d3ef824c570ae368",
+      "provider": "tsm",
+      "dataset": "region_pets",
+      "health": "accepted",
+      "next_due_ns": 1793031458705797700,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "snapshot": {
+        "id": 5,
+        "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+        "record_count": 978,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793017059379056500,
+        "available_at_ns": 1793017059406477000,
+        "expires_at_ns": 1793031459379056500,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": true,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "base_species_only"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 126912,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 0.0425906,
+        "available_age_seconds": 0.0151701,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 126912,
+          "max_age_seconds": 172800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "dbd205218cc660765ca309b6c6b1b23148b544dfa05ffd181097aa093fdaaa8f",
+      "provider": "undermine",
+      "dataset": "commodity_summary",
+      "health": "disabled",
+      "next_due_ns": 1793020659416846000,
+      "failures": 0,
+      "as_of_ns": 1793017059421647100,
+      "gap_count": 0
+    }
+  ],
+  "second": {
+    "imports": [
+      {
+        "provider": "tsm",
+        "dataset": "commodities",
+        "status": "unchanged",
+        "snapshot_id": 1
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_items",
+        "status": "unchanged",
+        "snapshot_id": 2
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_items",
+        "status": "unchanged",
+        "snapshot_id": 3
+      },
+      {
+        "provider": "tsm",
+        "dataset": "realm_pets",
+        "status": "unchanged",
+        "snapshot_id": 4
+      },
+      {
+        "provider": "tsm",
+        "dataset": "region_pets",
+        "status": "unchanged",
+        "snapshot_id": 5
+      },
+      {
+        "provider": "undermine",
+        "dataset": "commodity_summary",
+        "status": "disabled"
+      }
+    ],
+    "expired_content_records": 0
+  },
+  "repeated_status": [
+    {
+      "job_key": "e1aea7766097f62d1b79ff33eef2ef9f4a9e08d4cb17581bb64dc3071e372475",
+      "provider": "tsm",
+      "dataset": "commodities",
+      "health": "unchanged",
+      "next_due_ns": 1793031460797905500,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "snapshot": {
+        "id": 1,
+        "sha256": "963ee30c408a754a84abfa3467d7b0c1001985dd8b7f1d00709c102080a6cb16",
+        "record_count": 12162,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017054244399600,
+        "available_at_ns": 1793017054522512800,
+        "expires_at_ns": 1793031454244399600,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "commodity",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9966,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 10.2747081,
+        "available_age_seconds": 9.9965949,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9966,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "83847451bd3dcb9cdf0c9d9e44527d05e9886d94d9dfdb250a5a20b759bd037f",
+      "provider": "tsm",
+      "dataset": "realm_items",
+      "health": "unchanged",
+      "next_due_ns": 1793031461584468400,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "snapshot": {
+        "id": 2,
+        "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+        "record_count": 11030,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017055498300400,
+        "available_at_ns": 1793017055691566800,
+        "expires_at_ns": 1793031455498300400,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9966,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 9.0208073,
+        "available_age_seconds": 8.8275409,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9966,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e7c5b30f42597cab3678a1f761ffa1d975e707526832cbfb8a58c8c311b53dc6",
+      "provider": "tsm",
+      "dataset": "region_items",
+      "health": "unchanged",
+      "next_due_ns": 1793031462322716800,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "snapshot": {
+        "id": 3,
+        "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+        "record_count": 31187,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793017056853163300,
+        "available_at_ns": 1793017057630101100,
+        "expires_at_ns": 1793031456853163300,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": true,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "item_variants_not_exported"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 126917,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 7.6659444,
+        "available_age_seconds": 6.8890066,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 126917,
+          "max_age_seconds": 172800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "e4d1c4f27353c841b8caa55b6ca69dafaaaed15bc3ffb7fb70a7e9f7852e3761",
+      "provider": "tsm",
+      "dataset": "realm_pets",
+      "health": "unchanged",
+      "next_due_ns": 1793031463096220200,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "snapshot": {
+        "id": 4,
+        "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+        "record_count": 961,
+        "source_snapshot_at": 1793007098,
+        "source_generated_at": null,
+        "received_at_ns": 1793017058669763600,
+        "available_at_ns": 1793017058697179500,
+        "expires_at_ns": 1793031458669763600,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "realm_unresolved",
+          "realm_slug": "soulflayer",
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": false,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "base_species_only"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 9966,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 5.8493441,
+        "available_age_seconds": 5.8219282,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 9966,
+          "max_age_seconds": 28800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "9174fdc27cb4277efe62a06e028848fbf21d30de30709138d3ef824c570ae368",
+      "provider": "tsm",
+      "dataset": "region_pets",
+      "health": "unchanged",
+      "next_due_ns": 1793031463790700400,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "snapshot": {
+        "id": 5,
+        "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+        "record_count": 978,
+        "source_snapshot_at": 1792890147,
+        "source_generated_at": null,
+        "received_at_ns": 1793017059379056500,
+        "available_at_ns": 1793017059406477000,
+        "expires_at_ns": 1793031459379056500,
+        "content_status": "available",
+        "usable": true,
+        "cache_available": true,
+        "scope": {
+          "connected_realm_id": null,
+          "game": "retail",
+          "kind": "region_aggregate",
+          "realm_slug": null,
+          "region": "EU"
+        },
+        "completeness": "complete",
+        "capabilities": {
+          "aggregates": true,
+          "depth": false,
+          "executable_quotes": false,
+          "history_timeline": false,
+          "offers": false,
+          "quantity": false,
+          "sale_statistics": true,
+          "variant_detail": false
+        },
+        "warnings": [
+          "aggregates_are_not_executable_offers",
+          "base_species_only"
+        ],
+        "source_clock_ahead": false,
+        "source_snapshot_at_age_seconds": 126917,
+        "source_generated_at_age_seconds": null,
+        "received_age_seconds": 5.1400512,
+        "available_age_seconds": 5.1126307,
+        "source_freshness": {
+          "state": "fresh",
+          "current_usable": true,
+          "source_age_seconds": 126917,
+          "max_age_seconds": 172800,
+          "role": "current",
+          "policy_version": "2026-10-26-r1",
+          "source_generated_age_seconds": null
+        },
+        "freshness_state": "current_observation",
+        "capabilities_currently_usable": true
+      },
+      "gap_count": 0
+    },
+    {
+      "job_key": "dbd205218cc660765ca309b6c6b1b23148b544dfa05ffd181097aa093fdaaa8f",
+      "provider": "undermine",
+      "dataset": "commodity_summary",
+      "health": "disabled",
+      "next_due_ns": 1793020664514525800,
+      "failures": 0,
+      "as_of_ns": 1793017064519107700,
+      "gap_count": 0
+    }
+  ],
+  "validators": [
+    {
+      "job_key": "e1aea7766097f62d1b79ff33eef2ef9f4a9e08d4cb17581bb64dc3071e372475",
+      "snapshot_id": 1,
+      "normalizer_revision": "5d1ed2b9cd3c3d148e9eba5b62f69dc46b4593ce8acd023b3eb19a91b0a6d5ff",
+      "etag": "\"fa308b2bba9339e22ef4d43b47c4fbf3\"",
+      "last_modified": "Mon, 26 Oct 2026 09:36:27 GMT",
+      "generation": 1,
+      "sha256": "963ee30c408a754a84abfa3467d7b0c1001985dd8b7f1d00709c102080a6cb16",
+      "dataset": "commodities",
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017054244399600,
+      "available_at_ns": 1793017054522512800
+    },
+    {
+      "job_key": "83847451bd3dcb9cdf0c9d9e44527d05e9886d94d9dfdb250a5a20b759bd037f",
+      "snapshot_id": 2,
+      "normalizer_revision": "5d1ed2b9cd3c3d148e9eba5b62f69dc46b4593ce8acd023b3eb19a91b0a6d5ff",
+      "etag": "\"2fca5b5d2f7bfedd79c898f2bc6ef514\"",
+      "last_modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+      "generation": 1,
+      "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+      "dataset": "realm_items",
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017055498300400,
+      "available_at_ns": 1793017055691566800
+    },
+    {
+      "job_key": "e7c5b30f42597cab3678a1f761ffa1d975e707526832cbfb8a58c8c311b53dc6",
+      "snapshot_id": 3,
+      "normalizer_revision": "5d1ed2b9cd3c3d148e9eba5b62f69dc46b4593ce8acd023b3eb19a91b0a6d5ff",
+      "etag": "\"44358aac7b50994db374f479281b10cd\"",
+      "last_modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+      "generation": 1,
+      "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+      "dataset": "region_items",
+      "source_snapshot_at": 1792890147,
+      "received_at_ns": 1793017056853163300,
+      "available_at_ns": 1793017057630101100
+    },
+    {
+      "job_key": "e4d1c4f27353c841b8caa55b6ca69dafaaaed15bc3ffb7fb70a7e9f7852e3761",
+      "snapshot_id": 4,
+      "normalizer_revision": "5d1ed2b9cd3c3d148e9eba5b62f69dc46b4593ce8acd023b3eb19a91b0a6d5ff",
+      "etag": "\"f034f6f725a45fc9f9a29b8f94c1388c\"",
+      "last_modified": "Mon, 26 Oct 2026 09:38:37 GMT",
+      "generation": 1,
+      "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+      "dataset": "realm_pets",
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017058669763600,
+      "available_at_ns": 1793017058697179500
+    },
+    {
+      "job_key": "9174fdc27cb4277efe62a06e028848fbf21d30de30709138d3ef824c570ae368",
+      "snapshot_id": 5,
+      "normalizer_revision": "5d1ed2b9cd3c3d148e9eba5b62f69dc46b4593ce8acd023b3eb19a91b0a6d5ff",
+      "etag": "\"87438c84ca77277ff802e09c500086f2\"",
+      "last_modified": "Mon, 26 Oct 2026 00:31:38 GMT",
+      "generation": 1,
+      "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+      "dataset": "region_pets",
+      "source_snapshot_at": 1792890147,
+      "received_at_ns": 1793017059379056500,
+      "available_at_ns": 1793017059406477000
+    }
+  ],
+  "snapshots": [
+    {
+      "id": 1,
+      "dataset": "commodities",
+      "sha256": "963ee30c408a754a84abfa3467d7b0c1001985dd8b7f1d00709c102080a6cb16",
+      "record_count": 12162,
+      "raw_bytes": 901725,
+      "normalized_bytes": 6473291,
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017054244399600,
+      "available_at_ns": 1793017054522512800
+    },
+    {
+      "id": 2,
+      "dataset": "realm_items",
+      "sha256": "b7f2bc216c9f04b17275e3dd46a886cc99a0509b43a571b80872eb0d661bd05c",
+      "record_count": 11030,
+      "raw_bytes": 868751,
+      "normalized_bytes": 5926763,
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017055498300400,
+      "available_at_ns": 1793017055691566800
+    },
+    {
+      "id": 3,
+      "dataset": "region_items",
+      "sha256": "cb4abf46337a2e3907fec6f30322c03383900ad722da971ea988d220c87eb93f",
+      "record_count": 31187,
+      "raw_bytes": 2545285,
+      "normalized_bytes": 17276599,
+      "source_snapshot_at": 1792890147,
+      "received_at_ns": 1793017056853163300,
+      "available_at_ns": 1793017057630101100
+    },
+    {
+      "id": 4,
+      "dataset": "realm_pets",
+      "sha256": "7fe46ad48ed44996544491657b08bd7caa3d99a329cdfb9df34d6f31bf9ab9e1",
+      "record_count": 961,
+      "raw_bytes": 73693,
+      "normalized_bytes": 509050,
+      "source_snapshot_at": 1793007098,
+      "received_at_ns": 1793017058669763600,
+      "available_at_ns": 1793017058697179500
+    },
+    {
+      "id": 5,
+      "dataset": "region_pets",
+      "sha256": "8854ef6934713d487150163c1af6b90b2077ba65995cc2359ce48ed055d5c240",
+      "record_count": 978,
+      "raw_bytes": 77953,
+      "normalized_bytes": 532839,
+      "source_snapshot_at": 1792890147,
+      "received_at_ns": 1793017059379056500,
+      "available_at_ns": 1793017059406477000
+    }
+  ],
+  "elapsed_seconds": 11.664850800007116,
+  "database_bytes": 53964800,
+  "schema_version": 3,
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "limitations": [
+    "Immediate conditional retrieval is not measured natural cadence",
+    "No real PC sleep/wake or UE backfill",
+    "TSM aggregates only; no UE access"
+  ],
+  "code_sha256": {
+    "wow_auction/market_blizzard.py": "4eb5e41dee091257116656adb4dba59658f23c8cded42b620977df6da2220152",
+    "wow_auction/market_common.py": "df26fd01e89a2cbf326e954cbfbe4022a85b0d415a5750d0aa6b8910c1fb67db",
+    "wow_auction/market_config.py": "656c6c9ccc31ccb925414868eb6e6facc5665c0d5dce01a6adb75f3829e5343d",
+    "wow_auction/market_freshness.py": "ae4a3d08a0bf906b9d06eb4051d0c6a860b839825d8ca68e142036aa5ecd14f4",
+    "wow_auction/market_http.py": "39adbd42cc03a12766faee63d82379141d3137486f0b52701e7f21ef188546f5",
+    "wow_auction/market_policy.py": "6ab53481d5eee609b13b5c4724f1e270330b2f6c69807273389aa11a11e830fd",
+    "wow_auction/market_storage.py": "f0822b6b17674e4d3067a7df348eb346f2bebad3920f0ecdc48daa1f0b43d286",
+    "wow_auction/market_tsm.py": "74033e80d29351de9eeee9606148c588737a2d83ff2a79b1eac2d22a94f349a1",
+    "wow_auction/market_undermine.py": "38a3dbc7250db164028f0da2e30d05e91eeef26c03045a7545769de161e537ae",
+    "wow_auction/market_worker.py": "854e80efbaa021c66d5d11e4179b09be470026fbce7749f5f19a7c1786d5cf62"
+  },
+  "temporary_raw_database_removed": true
+}

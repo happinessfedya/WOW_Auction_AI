@@ -1,0 +1,259 @@
+{
+  "captured_at": "2026-10-26T13:48:17.658269+00:00",
+  "kind": "REAL_SOURCE_IMPORT_NOT_GAME_MECHANICS",
+  "source_file_sha256": "121eff2aa99868d0ec41d6d9fc6dcf281ccf29cd10e824741124369cc3a064e2",
+  "revision": "3d0461d9740940e09c9cb19390467ed6ec39cb9c",
+  "parser_revision": "att-static-3",
+  "build": "12.1.5.70575",
+  "file_count": 3470,
+  "candidate_count": 141687,
+  "coverage": {
+    "file_dispositions": {
+      "configuration_recorded": 19,
+      "no_candidates": 1974,
+      "normalized_candidates": 1476,
+      "license_notice": 1
+    },
+    "constructor_dispositions": {
+      "non_economic_constructor": 317739,
+      "quarantined": 10798,
+      "candidate": 111225,
+      "historical": 19664,
+      "unsupported_identity": 1567
+    },
+    "candidate_families": {
+      "professional_recipe": 23606,
+      "purchase_or_exchange": 15498,
+      "unknown_constructor": 41954,
+      "item_relation": 55798,
+      "periodic_candidate": 4770,
+      "container_relation": 48,
+      "salvage_recipe": 13
+    },
+    "expansion_files": {
+      "Battle for Azeroth": {
+        "no_candidates": 68,
+        "normalized_candidates": 131
+      },
+      "Cataclysm": {
+        "no_candidates": 7,
+        "normalized_candidates": 27
+      },
+      "Classic": {
+        "no_candidates": 34,
+        "normalized_candidates": 33
+      },
+      "Dragonflight": {
+        "no_candidates": 61,
+        "normalized_candidates": 167
+      },
+      "Legion": {
+        "no_candidates": 84,
+        "normalized_candidates": 172
+      },
+      "Midnight": {
+        "no_candidates": 34,
+        "normalized_candidates": 130
+      },
+      "Mists of Pandaria": {
+        "no_candidates": 12,
+        "normalized_candidates": 66
+      },
+      "Shadowlands": {
+        "no_candidates": 76,
+        "normalized_candidates": 152
+      },
+      "The Burning Crusade": {
+        "normalized_candidates": 40
+      },
+      "The War Within": {
+        "no_candidates": 38,
+        "normalized_candidates": 119
+      },
+      "Warlords of Draenor": {
+        "no_candidates": 14,
+        "normalized_candidates": 65
+      },
+      "Wrath of the Lich King": {
+        "no_candidates": 13,
+        "normalized_candidates": 44
+      },
+      "unknown-era": {
+        "no_candidates": 1537,
+        "normalized_candidates": 332
+      }
+    },
+    "resolved_unambiguous_constants": 2134,
+    "candidate_unknowns": {
+      "mechanic_not_runtime_validated": 141687,
+      "yield_quantities": 141687,
+      "joint_outcomes": 141687,
+      "binding": 141687,
+      "tradeability": 141687,
+      "current_server_applicability": 141687,
+      "entity_id_expression_unresolved": 11521,
+      "nested_collection_links_are_not_guaranteed_outputs": 46863,
+      "wrapper_inheritance_requires_semantic_validation": 20312,
+      "recipe_item_association_not_crafted_output": 14808,
+      "symbolic_reference_unresolved": 1061,
+      "preprocessor_condition_unresolved": 64
+    },
+    "symbol_references": {
+      "definition_located_semantics_unresolved": 32
+    },
+    "expansion_candidate_families": {
+      "Battle for Azeroth": {
+        "professional_recipe": 1811,
+        "unknown_constructor": 960,
+        "periodic_candidate": 603,
+        "item_relation": 2282,
+        "purchase_or_exchange": 904,
+        "container_relation": 10
+      },
+      "Cataclysm": {
+        "professional_recipe": 974,
+        "unknown_constructor": 1649,
+        "item_relation": 1278,
+        "purchase_or_exchange": 100,
+        "periodic_candidate": 68
+      },
+      "Classic": {
+        "professional_recipe": 1924,
+        "unknown_constructor": 1038,
+        "purchase_or_exchange": 455,
+        "item_relation": 3092,
+        "periodic_candidate": 9,
+        "container_relation": 1
+      },
+      "Dragonflight": {
+        "professional_recipe": 1718,
+        "unknown_constructor": 3092,
+        "periodic_candidate": 270,
+        "item_relation": 5518,
+        "purchase_or_exchange": 1406,
+        "container_relation": 1,
+        "salvage_recipe": 1
+      },
+      "Legion": {
+        "professional_recipe": 1225,
+        "unknown_constructor": 2311,
+        "periodic_candidate": 373,
+        "item_relation": 3499,
+        "purchase_or_exchange": 1051
+      },
+      "Midnight": {
+        "professional_recipe": 1201,
+        "unknown_constructor": 1779,
+        "periodic_candidate": 157,
+        "item_relation": 3671,
+        "purchase_or_exchange": 857,
+        "container_relation": 2,
+        "salvage_recipe": 1
+      },
+      "Mists of Pandaria": {
+        "professional_recipe": 1499,
+        "unknown_constructor": 6247,
+        "item_relation": 7674,
+        "periodic_candidate": 336,
+        "purchase_or_exchange": 886,
+        "container_relation": 3
+      },
+      "Shadowlands": {
+        "professional_recipe": 1590,
+        "unknown_constructor": 1804,
+        "purchase_or_exchange": 1683,
+        "periodic_candidate": 421,
+        "item_relation": 2900
+      },
+      "The Burning Crusade": {
+        "professional_recipe": 994,
+        "unknown_constructor": 1822,
+        "item_relation": 2603,
+        "purchase_or_exchange": 559,
+        "periodic_candidate": 81,
+        "container_relation": 5
+      },
+      "The War Within": {
+        "professional_recipe": 1438,
+        "unknown_constructor": 2507,
+        "periodic_candidate": 371,
+        "item_relation": 4233,
+        "purchase_or_exchange": 1046,
+        "container_relation": 4,
+        "salvage_recipe": 10
+      },
+      "Warlords of Draenor": {
+        "professional_recipe": 631,
+        "unknown_constructor": 4329,
+        "purchase_or_exchange": 827,
+        "periodic_candidate": 572,
+        "item_relation": 3763,
+        "container_relation": 16
+      },
+      "Wrath of the Lich King": {
+        "professional_recipe": 1341,
+        "unknown_constructor": 3367,
+        "purchase_or_exchange": 349,
+        "item_relation": 2853,
+        "periodic_candidate": 374,
+        "container_relation": 2,
+        "salvage_recipe": 1
+      },
+      "unknown-era": {
+        "professional_recipe": 7260,
+        "purchase_or_exchange": 5430,
+        "unknown_constructor": 11055,
+        "item_relation": 12450,
+        "periodic_candidate": 1180,
+        "container_relation": 4
+      }
+    },
+    "all_game_percentage": null,
+    "confirmed_current_transformations": 0
+  },
+  "first": {
+    "status": "imported",
+    "import_id": 3,
+    "candidate_count": 141687,
+    "file_count": 3470,
+    "delta": {
+      "import_id": 3,
+      "previous_import_id": 2,
+      "added": 409,
+      "changed": 0,
+      "withdrawn": 0,
+      "unchanged": 141278,
+      "research_jobs_superseded": 0
+    }
+  },
+  "repeat": {
+    "status": "unchanged",
+    "import_id": 3,
+    "candidate_count": 141687
+  },
+  "table_counts": {
+    "imports": 3,
+    "entries": 10410,
+    "candidates": 424243,
+    "events": 4,
+    "research_jobs": 265559
+  },
+  "repeat_created_no_rows": true,
+  "quick_check": "ok",
+  "foreign_key_errors": 0,
+  "received_at": 1793022497,
+  "available_at": 1793022529,
+  "database_bytes": 1224720384,
+  "elapsed_seconds": 55.425,
+  "source_code_sha256": {
+    "wow_auction/knowledge.py": "471a03966127539d51c7f5aad1eb0b156e9c8edc3acb121cfba0a0cc7b2d4621",
+    "wow_auction/knowledge_att.py": "cccf1b9835e06d2e10bdb9703060b8496f825b4eea0a3b66721430515a28537a",
+    "wow_auction/knowledge_cli.py": "f8eeb9ad4f05bbb15c9f7cfd2a1c856d8194745741e4f25438425fbdb95f0348",
+    "wow_auction/knowledge_craftsim.py": "d247c0a2685ce708ff22c4dc2fdd969740d5933c66e08ce25e3f9f6a351d85ea",
+    "wow_auction/knowledge_items.py": "da8beaebe7e5b4099aad9e51348e368635cce066f584f4345d7a9d7a0980818c",
+    "wow_auction/knowledge_sources.py": "483eb65c3fa4dbf33c44b18a09e950c137abaadb7c095df8eff819f47f493d5e",
+    "wow_auction/knowledge_storage.py": "b24ca02e75d17c4c114011234f3990ebf891b16ad0fd8bf67d4563f20dfc6494",
+    "wow_auction/knowledge_transport.py": "ddf1107962d7e13f03a23027628c61337985e70790942fe1f7f684454a865ac2",
+    "wow_auction/knowledge_worker.py": "dafd18f4a361c4b4d7c76ac3c57cdbfd14e9b553c9f250eeb02ef15e0829cc60"
+  }
+}

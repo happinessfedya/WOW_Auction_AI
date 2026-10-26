@@ -1,0 +1,87 @@
+{
+  "captured_at_ns": 1793017208024365600,
+  "suite": {
+    "command": ".venv/Scripts/python.exe -B -m unittest discover -s tests -q",
+    "tests": 377,
+    "seconds": 18.645,
+    "exit_code": 0,
+    "result": "PASS",
+    "new_regressions_since_original_package": 68,
+    "basis": "Observed executed full-suite tool result, no network inside suite"
+  },
+  "targeted_cases": {
+    "S2-01_freshness": 41,
+    "S2-02_validators_and_queue": 12,
+    "S2-03_deadline_new": 7,
+    "S2-04_lazy_secrets_new": 8
+  },
+  "live_file": "docs/stage2-r1-final-live-evidence.json",
+  "live_checks": "PASS",
+  "live_code_hashes_match_final_source": true,
+  "conditional_snapshots_and_times_unchanged": true,
+  "conditional_headers_match_snapshot_bound_validators": true,
+  "stage2_r1_archive_sha256": "c79239bc674205ff44f4754c943f66918afdb250d2cc64fd3282d2e387a0744f",
+  "stage2_r1_archived_content_entries_verified": 94,
+  "stage2_r1_original_manifest_matches": 93,
+  "stage2_r1_original_manifest_entries": 94,
+  "original_manifest_exception": "Auditor updated docs/reviews/open-verifications.md before this fix; current document archived separately from original expected hash",
+  "review_hashes_unchanged_during_fix": {
+    "docs/reviews/open-verifications.md": "dc91fb4b9adf4377baf6cc85710f64a313ebfb5483e652aa821d5d82b7de895e",
+    "docs/reviews/stage-0-review.md": "d19b53b00354abcba26491441b2cce2b61ba5e801d0dd7c9924addad05d47b7a",
+    "docs/reviews/stage-1-review.md": "db323823650492670a44528f1bed5bdbfef442d7efd1ecdad586261c6ca61925",
+    "docs/reviews/stage-2-review.md": "b8bfe328eb601f99137546939fb77754a0cf819c967a378ca575ed8591335895"
+  },
+  "stage1_source_changes": [
+    "wow_auction/__main__.py"
+  ],
+  "stage1_test_changes": [],
+  "changed_existing_package_files_excluding_auditor_updates": [
+    "docs/acceptance-tests.md",
+    "docs/architecture.md",
+    "docs/data-model.md",
+    "docs/implementation-plan.md",
+    "docs/research/stage-2-no-blizzard-alternatives.md",
+    "docs/risks.md",
+    "docs/stage-2-report.md",
+    "docs/stage2-runbook.md",
+    "README.md",
+    "tests/test_market_http.py",
+    "tests/test_market_storage.py",
+    "wow_auction/__main__.py",
+    "wow_auction/market_config.py",
+    "wow_auction/market_http.py",
+    "wow_auction/market_storage.py",
+    "wow_auction/market_worker.py"
+  ],
+  "local_links_checked": 234,
+  "missing_links": [],
+  "code_sha256": {
+    "wow_auction/__init__.py": "edac8e651854f31eedb0145b7b3324808f66f1f884940cc8f2518a9793fb195f",
+    "wow_auction/__main__.py": "949dd3aa8bcfe5ea088946e961f4acc83d7a50f5bacb0755ce329c4003f05f38",
+    "wow_auction/assets.py": "51e0052ffe7f784168595f59de94b2687a6e3eb67d471853c184b689bcfbce80",
+    "wow_auction/file_reader.py": "1d113c68e6404804c3a77f6c30ba820a1ee7aa8492d5b3a5832cdfc27303f67d",
+    "wow_auction/ingestion.py": "78e8cd974e4082c79c2fe102d7e83671f3c93ce94849c48d83f19838694961f7",
+    "wow_auction/ledger.py": "604192740c82096f61b8c5cc71a1ff594e1cebda9cac4e512bae5864378974b7",
+    "wow_auction/ledger_context.py": "1b431c5aae8bdb1459d9451fd9b60912e9acd5b29fc5ad24e81d3edeba247684",
+    "wow_auction/lua_data.py": "cc8dd2c21e55acd9e9f2dc3515da6e9a968d3fa18c661ffea37cb23b32c042b8",
+    "wow_auction/manual_links.py": "29a680dd7f241fd5b916fe868b5501648ba847fa71f9c0aab5c54623aa9872f2",
+    "wow_auction/market_blizzard.py": "4eb5e41dee091257116656adb4dba59658f23c8cded42b620977df6da2220152",
+    "wow_auction/market_common.py": "df26fd01e89a2cbf326e954cbfbe4022a85b0d415a5750d0aa6b8910c1fb67db",
+    "wow_auction/market_config.py": "656c6c9ccc31ccb925414868eb6e6facc5665c0d5dce01a6adb75f3829e5343d",
+    "wow_auction/market_freshness.py": "ae4a3d08a0bf906b9d06eb4051d0c6a860b839825d8ca68e142036aa5ecd14f4",
+    "wow_auction/market_http.py": "39adbd42cc03a12766faee63d82379141d3137486f0b52701e7f21ef188546f5",
+    "wow_auction/market_policy.py": "6ab53481d5eee609b13b5c4724f1e270330b2f6c69807273389aa11a11e830fd",
+    "wow_auction/market_storage.py": "f0822b6b17674e4d3067a7df348eb346f2bebad3920f0ecdc48daa1f0b43d286",
+    "wow_auction/market_tsm.py": "74033e80d29351de9eeee9606148c588737a2d83ff2a79b1eac2d22a94f349a1",
+    "wow_auction/market_undermine.py": "38a3dbc7250db164028f0da2e30d05e91eeef26c03045a7545769de161e537ae",
+    "wow_auction/market_worker.py": "854e80efbaa021c66d5d11e4179b09be470026fbce7749f5f19a7c1786d5cf62",
+    "wow_auction/storage.py": "a3b90e32e007e7a7a53de6349d4c1ad0297721d13fe9745a0affecf57607166d"
+  },
+  "limitations": [
+    "S2-V01 natural cadence OPEN",
+    "S2-V03 real sleep/wake/offline/backfill OPEN",
+    "S2-V02 UE conditional/DOC/MOCK only",
+    "S2-V04 retention/reuse/full-depth scale OPEN",
+    "No automatic deferral approval inferred from stage1 D1"
+  ]
+}

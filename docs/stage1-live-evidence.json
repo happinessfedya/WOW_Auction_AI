@@ -1,0 +1,100 @@
+{
+  "observed_at_utc": "2026-10-26T07:36:09.855848+00:00",
+  "python": "3.13.7",
+  "sqlite": "3.50.4",
+  "journal_mode": "delete",
+  "first_pass_statuses": [
+    "accepted",
+    "accepted",
+    "accepted",
+    "accepted"
+  ],
+  "repeat_statuses": [
+    "unchanged",
+    "unchanged",
+    "unchanged",
+    "unchanged"
+  ],
+  "backup_restore": "PASS logical equality and unchanged reimport",
+  "sources": [
+    {
+      "addon": "GX",
+      "sha256": "00e8811fdb199629f7ffd08fca098241b3beee1fbc453fb96e92eb06b35589f7",
+      "bytes": 553,
+      "file_written_at_utc": "2026-10-26T00:47:39.204060+00:00",
+      "installed_version": "1.1.0"
+    },
+    {
+      "addon": "TradeSkillMaster",
+      "sha256": "1261ccfda9d7cb199b0535cbe6ebbbe1826b8ff8276db5f4ed356068d37fd9f1",
+      "bytes": 123026,
+      "file_written_at_utc": "2026-09-26T17:59:19.850800+00:00",
+      "installed_version": "v4.14.78",
+      "ledger_rows": 0,
+      "scope_family_count": 6,
+      "invoice_validation": "NOT_RUN"
+    },
+    {
+      "addon": "CraftSim",
+      "sha256": "f029f607f1ccfcc3ae0c989861b69717f71c8d56d7cfdcb313e148c46c3d0659",
+      "bytes": 269302,
+      "file_written_at_utc": "2026-10-26T00:47:39.133236+00:00",
+      "installed_version": "27.0.7",
+      "repositories": 14,
+      "cached_costs": 0,
+      "engine_runtime_validation": "NOT_RUN"
+    },
+    {
+      "addon": "BagSync",
+      "sha256": "a9878438281f971f800a31fbd4e526d486ad0033cbdb754850b69bcdbdfc312b",
+      "bytes": 28254,
+      "file_written_at_utc": "2026-10-26T00:47:39.120344+00:00",
+      "installed_version": "20.38"
+    }
+  ],
+  "characters": 3,
+  "cash_observations": 4,
+  "cash_disagreement_count": 0,
+  "current_nav_copper": null,
+  "full_real_pnl_copper": null,
+  "cash_status": "mixed_time_observations",
+  "raw_inventory_rows": 211,
+  "selected_inventory_rows": 211,
+  "selected_containers": 45,
+  "possible_stale_overlap_variants": 23,
+  "elapsed_seconds_two_scans_backup_restore": 1.71,
+  "runtime_game_actions": "none; all source access read-only",
+  "invoice_and_manual_bank_validation": "NOT_RUN external evidence required",
+  "source_bytes_and_mtime_unchanged": true,
+  "user_clarification_follow_up": {
+    "user_statement_date": "2026-10-26",
+    "user_statement_provenance": "user_reply_in_project_chat",
+    "user_reported_purchases_or_sales_since_tsm_install": false,
+    "user_reported_actions": [
+      "logged_in_on_all_main_characters",
+      "opened_bags_and_banks_for_BagSync_sync"
+    ],
+    "not_inferred": [
+      "all_account_characters",
+      "separate_warband_mail_auction_checks",
+      "exact_savedvariables_flush_time",
+      "independent_game_ui_amount_comparison"
+    ],
+    "manual_copying_or_recounting_money_requested": false,
+    "special_test_trade_requested": false,
+    "read_only_recheck_at_utc": "2026-10-26T07:50:48.294545+00:00",
+    "all_four_source_hashes_match_original_evidence": true,
+    "characters_observed": 3,
+    "cash_observations": 4,
+    "cash_disagreement_count": 0,
+    "containers": 45,
+    "selected_inventory_rows": 211,
+    "ledger_rows": 0,
+    "source_bytes_and_mtime_unchanged_during_recheck": true,
+    "database_written_during_recheck": false,
+    "nonempty_ledger_real_test": "BLOCKED_DATA_until_natural_history_exists"
+  },
+  "evidence_scope": "historical_initial_probe_before_controlled_purchase_and_repair",
+  "subsequent_evidence": "stage1-reload-evidence.json",
+  "subsequent_status": "nonempty_purchase_and_repair_validated; original fields above describe their recorded observation times"
+}

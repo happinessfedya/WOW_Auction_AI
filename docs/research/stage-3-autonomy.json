@@ -1,0 +1,241 @@
+{
+  "captured_at_utc": "2026-10-26T13:53:13.420309+00:00",
+  "kind": "REAL_LOCAL_READ_ONLY",
+  "build": "12.1.5.70575",
+  "first": {
+    "status": "local_observations_checked",
+    "build": "12.1.5.70575",
+    "game_actions_required": false,
+    "sources": [
+      {
+        "kind": "item_metadata",
+        "status": "artifact_stored",
+        "artifact_id": 1,
+        "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "tsm_crafting_cache",
+        "status": "artifact_stored",
+        "artifact_id": 2,
+        "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "craftsim_cache",
+        "status": "artifact_stored",
+        "artifact_id": 3,
+        "source_sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "craftsim",
+        "status": "artifact_stored",
+        "artifact_id": 4,
+        "source_sha256": "d9d9d2044359a9a01da514011e3087932219f734f62179485debb089136bd2d2",
+        "build_comparison": "installed_or_supplied",
+        "profile_statuses_now": {
+          "stale": 9
+        },
+        "rejected_records": 0,
+        "passive_records": 0
+      }
+    ],
+    "fresh_personal_engine_evaluation_guaranteed": false
+  },
+  "repeat": {
+    "status": "local_observations_checked",
+    "build": "12.1.5.70575",
+    "game_actions_required": false,
+    "sources": [
+      {
+        "kind": "item_metadata",
+        "status": "file_unchanged",
+        "artifact_id": 1
+      },
+      {
+        "kind": "tsm_crafting_cache",
+        "status": "file_unchanged",
+        "artifact_id": 2
+      },
+      {
+        "kind": "craftsim_cache",
+        "status": "file_unchanged",
+        "artifact_id": 3
+      },
+      {
+        "kind": "craftsim",
+        "status": "file_unchanged",
+        "artifact_id": 4
+      }
+    ],
+    "fresh_personal_engine_evaluation_guaranteed": false
+  },
+  "restart": {
+    "status": "local_observations_checked",
+    "build": "12.1.5.70575",
+    "game_actions_required": false,
+    "sources": [
+      {
+        "kind": "item_metadata",
+        "status": "artifact_unchanged",
+        "artifact_id": 1,
+        "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "tsm_crafting_cache",
+        "status": "artifact_unchanged",
+        "artifact_id": 2,
+        "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "craftsim_cache",
+        "status": "artifact_unchanged",
+        "artifact_id": 3,
+        "source_sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+        "build_comparison": "installed_or_supplied"
+      },
+      {
+        "kind": "craftsim",
+        "status": "artifact_unchanged",
+        "artifact_id": 4,
+        "source_sha256": "d9d9d2044359a9a01da514011e3087932219f734f62179485debb089136bd2d2",
+        "build_comparison": "installed_or_supplied",
+        "profile_statuses_now": {
+          "stale": 9
+        },
+        "rejected_records": 0,
+        "passive_records": 0
+      }
+    ],
+    "fresh_personal_engine_evaluation_guaranteed": false
+  },
+  "artifacts": [
+    {
+      "kind": "item_metadata",
+      "payload_sha256": "244a7902a0246e4b40cb5e8bbd1c9b9c92d09dd62f51cd70770cc002e8dfbb4e",
+      "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+      "received_at": 1793022791,
+      "row_count": 19036
+    },
+    {
+      "kind": "tsm_crafting_cache",
+      "payload_sha256": "bb61fa09d00a6e9018aa066462c27f18cb78ac19158070c1f3d13dd823edd848",
+      "source_sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+      "received_at": 1793022791,
+      "record_count": 57,
+      "material_key_types": [
+        "f",
+        "i",
+        "o",
+        "q",
+        "r"
+      ],
+      "output_quantity_semantics": [
+        "source_floor_of_range_midpoint_not_guaranteed_yield"
+      ]
+    },
+    {
+      "kind": "craftsim_cache",
+      "payload_sha256": "8c5095be52688d6b55b6960a3f73ffcc1fd261577a8ada83c7fe5bef7bcc237a",
+      "source_sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+      "received_at": 1793022791,
+      "repositories": {
+        "craftQueueDB": {
+          "entry_count": 15,
+          "status": "cached_observations",
+          "version": 1
+        },
+        "crafterDB": {
+          "entry_count": 18,
+          "status": "cached_observations",
+          "version": 7
+        },
+        "itemOptimizedCostsDB": {
+          "entry_count": 1,
+          "status": "cached_observations",
+          "version": 4
+        },
+        "itemRecipeDB": {
+          "entry_count": 72,
+          "status": "cached_observations",
+          "version": 4
+        },
+        "lastCraftingCostDB": {
+          "entry_count": 0,
+          "status": "cached_observations",
+          "version": 1
+        },
+        "optimizationOptionsDB": {
+          "entry_count": 3,
+          "status": "cached_observations",
+          "version": 2
+        },
+        "optionsDB": {
+          "entry_count": 88,
+          "status": "cached_observations",
+          "version": 2
+        },
+        "priceOverrideDB": {
+          "entry_count": 2,
+          "status": "cached_observations",
+          "version": 1
+        },
+        "recipeSubCrafterDB": {
+          "entry_count": 45,
+          "status": "cached_observations",
+          "version": 3
+        }
+      },
+      "summary_counts": {
+        "cachedRecipeIDs": 8,
+        "cached_cost_records": 0,
+        "cached_recipe_list_entries": 74,
+        "concentrationData": 19,
+        "cooldownData": 1,
+        "operationInfos": 38,
+        "professionGear": 8,
+        "professionInfos": 75,
+        "recipeInfos": 75,
+        "specializationData": 3
+      },
+      "engine_evaluation_available": false
+    },
+    {
+      "kind": "craftsim",
+      "payload_sha256": "957709b19a325eb397b3989fbe6d6ce608b265b58aabd14bdb0d18fba451512b",
+      "source_sha256": "d9d9d2044359a9a01da514011e3087932219f734f62179485debb089136bd2d2",
+      "received_at": 1793022791,
+      "profiles": 9,
+      "passive_records": 0
+    }
+  ],
+  "artifact_count": 4,
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "existing_database_files_opened": false,
+  "network_calls": 0,
+  "game_actions": 0,
+  "source_files_unchanged": true,
+  "source_files": {
+    "TradeSkillMaster": {
+      "sha256": "0bf835e352d29a563198ff93a726e86ae9eac881d05ba8ba52a6130902be9aac",
+      "bytes": 1599049,
+      "mtime_ns": 1793022183477098300
+    },
+    "CraftSim": {
+      "sha256": "10ea44512cdab0391aad6b3d96431b0f1f19159930ec2d1b21b74829ce81bea9",
+      "bytes": 282321,
+      "mtime_ns": 1793022183376810800
+    }
+  },
+  "temporary_database_removed": true,
+  "installed_contract_hashes": {
+    "CraftSim/DB/crafterDB.lua": "f1cd1cfae9d3f005afc07d36c469f18051f41b2b4bba650953b57dde414651b7",
+    "CraftSim/DB/lastCraftingCostDB.lua": "25155f238b8889a9b94ea0c0c81844f98fa6a50a4880ea0120c9775586b9eb7f",
+    "TradeSkillMaster/Core/Service/Crafting/ProfessionScanner.lua": "39b9590e394f4ceca354d9d7aaf774364985f14ef81579db4c4999b682b4bacb",
+    "TradeSkillMaster/Core/Service/Crafting/Core.lua": "ff35579f954efae3a5f09dcafa40735dcfe897e5b3852793b31d6d637ed9adb4"
+  }
+}

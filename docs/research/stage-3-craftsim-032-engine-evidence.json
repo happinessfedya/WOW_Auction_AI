@@ -1,0 +1,88 @@
+{
+  "captured_at": "2026-10-26T14:08:36.842846+00:00",
+  "kind": "SYN_LUA_INSTALLED_SOURCE_NOT_GAME_RUNTIME",
+  "lua_version": "Lua 5.1",
+  "lupa_version": "2.6",
+  "source_hashes": {
+    "CraftSim.toc": "1ba0191ae7208f95b1ebf75150ec332240f3b2edc090c46f9a03ee469cd2128c",
+    "Util/API.lua": "a4a5573af2d6c7b7bb0ee65bca5f3aeff83fa8fa9d27b43bf58ddc3060e2a247",
+    "Util/Events.lua": "5a8fd62537d5b3ba909a37930c8406f78da82bb8df9ceb4931820cbefbfa9c85",
+    "Classes/RecipeData.lua": "4ec007b240c784ecfed3e9d99f5511c4bcea6b13bebefcfec0833bed14e5ae44",
+    "Classes/PriceData.lua": "612222f53a23ea376c61fe1a9d263a5ebc941c0b89a1fa681abffa79bfc54d3c",
+    "Classes/ResultData.lua": "f1db789286f376bb650b1c1a24a0536bbb22d4ab526ba161c0ede47443fb5444",
+    "Pricing/ProfitCalculation.lua": "4cb252683f0f49fc0038d027ce26cc1d770c9f9733308a25ba30eff144c17980",
+    "DB/optionsDB.lua": "2bc1c362d7fe174ab4986dddecaebd1bf2491c770677d76f5a45b6b5fc2e3ee1",
+    "DB/priceOverrideDB.lua": "f326b59c0f33e1f417f5e6318955f0cc2a233115c45db21602745e44847824d8"
+  },
+  "project_hashes": {
+    "addons/WowAuctionBridge/Bridge.lua": "f0ebf13050079be746a58d129813de085bd14f85f26822962aefdcf696628592",
+    "addons/WowAuctionBridge/WowAuctionBridge.toc": "72af071751494097f22d8c740007e0fe40e04d65d7173d452dc69863d3ce4790",
+    "wow_auction/knowledge_craftsim.py": "3d3532fd1224366facfd6511fc503877a57f0c8d9e7dd8d4fa40e79b63cbacdb",
+    "tests/test_knowledge_craftsim.py": "01e6b15baf77edd4966fc6b886680cfa179fab43e71a993e6f6eb3e6b4cf6d27",
+    "tools/verify_stage3_bridge.py": "fd111c92e5181119221315325e3487030429e60fac8fd9b688e0b8dbfe37db8e"
+  },
+  "engine_cases": [
+    {
+      "case": "C11_no_stats_single_deposit",
+      "actual_copper_per_craft": 34000,
+      "proc_states": 1,
+      "pass": true
+    },
+    {
+      "case": "C11_resourcefulness_double_deposit",
+      "actual_copper_per_craft": 33000,
+      "proc_states": 2,
+      "pass": true
+    },
+    {
+      "case": "C11_resourcefulness_20pct",
+      "actual_copper_per_craft": 36600,
+      "proc_states": 2,
+      "pass": true
+    },
+    {
+      "case": "C11_fixed_reprice_input",
+      "actual_copper_per_craft": 34720,
+      "proc_states": 2,
+      "pass": true
+    },
+    {
+      "case": "C11_fixed_reprice_output",
+      "actual_copper_per_craft": 40500,
+      "proc_states": 2,
+      "pass": true
+    },
+    {
+      "case": "C21_unsupported_empty",
+      "actual_copper_per_craft": 0,
+      "proc_states": 0,
+      "pass": true
+    },
+    {
+      "case": "C11_multicraft_zero_proc",
+      "actual_copper_per_craft": 33000,
+      "proc_states": 4,
+      "pass": true
+    }
+  ],
+  "bridge_checks": [
+    "Lua5.1_bridge_load",
+    "ready_event_dto_roundtrip",
+    "other_savedvariables_unchanged",
+    "mutating_accessor_not_called",
+    "pending_capture_cancelled_after_invalidation",
+    "pending_capture_cancelled_after_recipe_replacement",
+    "missing_engine_cache_not_zero",
+    "bounded_ring_with_drop_counter",
+    "unselected_price_object_cycle_not_serialized",
+    "invalid_selected_numeric_map_has_safe_diagnostic",
+    "string_budget_capture_quarantined",
+    "normal_gear_buffs_reagents_fit_export_budget",
+    "former_64kb_threshold_regression_reproduced",
+    "unknown_savedvariables_schema_preserved"
+  ],
+  "fixed_variant_matches_engine_recalculation": true,
+  "game_runtime_verified": false,
+  "addon_installed": false,
+  "other_savedvariables_unchanged_in_stub": true
+}

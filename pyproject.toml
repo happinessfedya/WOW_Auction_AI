@@ -1,0 +1,12 @@
+[project]
+name = "wow-auction-intelligence"
+version = "0.3.0"
+description = "Read-only addon ingestion, public markets and versioned transformation knowledge"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.wow-auction]
+stage = 3
+tested-python = "3.13.7"
+tested-sqlite = "3.50.4"
+journal-mode = "DELETE"

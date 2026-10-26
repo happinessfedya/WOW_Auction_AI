@@ -1,0 +1,10 @@
+## Interface: 120105
+## Title: WoW Auction Bridge
+## Notes: Automatic CraftSim calculation export for the local auction research app
+## Author: WOW_AUC_AI project
+## Version: 0.3.3
+## OptionalDeps: CraftSim
+## SavedVariables: WowAuctionBridgeDB
+Bridge.lua
+Passive.lua
+Engine.lua

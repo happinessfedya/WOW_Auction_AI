@@ -1,0 +1,152 @@
+{
+  "at": "2026-10-26T13:41:54.756551+00:00",
+  "revision": "3d0461d9740940e09c9cb19390467ed6ec39cb9c",
+  "sources": [
+    {
+      "path": ".contrib/src/Parser/Program.cs",
+      "git_blob_sha1": "3c86618f3868abcab5a37378ab244321ea6464f3",
+      "bytes": 55197,
+      "sha256": "114b0c84707f06f708bfdb678743bd80d36ec3617f49ac4b36549212e5c65f5d",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/src/Blizzard API Harvester/Program.cs",
+      "git_blob_sha1": "cedcf557621617b3283ecbd2c83bbb9978b85aad",
+      "bytes": 67272,
+      "sha256": "bf6d63ebbb53f40a2b8f85e3234f30b36c53f1b18eb9d8b619523f32e75fb109",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/src/Item DB Compare Tool/Program.cs",
+      "git_blob_sha1": "722190bf302c8202aabf133a5d4a0164225d34ad",
+      "bytes": 26793,
+      "sha256": "7047f57af2b6478c9b5f84cb5f0c414a3d643faf751ff5a2e69157fceca18f0b",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/Harvesters/Database Harvester/Harvester.py",
+      "git_blob_sha1": "af6cfe273ceebfd0d61b85edaa36bfe2265a0029",
+      "bytes": 33892,
+      "sha256": "dda1f7a71998d2b30363a14b6590059e5324a65ebbb8710b01577d1d8e851014",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/Harvesters/Database Harvester/ThingTypes.py",
+      "git_blob_sha1": "a5ad427e68bbfbf839fbee82939e23e85f4fe1b8",
+      "bytes": 18280,
+      "sha256": "b93ab229e51681a83d28c2a5e27441b3051df471e6986d313ab32a3bffd338ef",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/src/Parser/Framework/Framework.cs",
+      "git_blob_sha1": "4cfcc08d0696c4020a4c495036a8970f4b2c82e4",
+      "bytes": 210555,
+      "sha256": "37cf29d741f5a91752a07d551573cf4a329962a60ef3b0c98dbfb4ae580d7ca9",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/src/Parser/Framework/Framework.Items.cs",
+      "git_blob_sha1": "059aa3c778f633597086f469824e4e3c571e751e",
+      "bytes": 57378,
+      "sha256": "5efb05ff0064620678a709627f8025778023be2d47db78a05f90899ad1a1449d",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/.db/standard/00 - Item DB/ConvertItemNamesToItemObjects.py",
+      "git_blob_sha1": "c05a634e2ddb148e314f2d025dd9bb74c48a0254",
+      "bytes": 1704,
+      "sha256": "cb2a732f791ce6bc49726db55e55d68cd8a257d51b8e3e8a680315601c41db9f",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/.db/standard/00 - Item DB/Conduits/conduits.py",
+      "git_blob_sha1": "d382fe032a2fe6746606c07255ca195017333b22",
+      "bytes": 1617,
+      "sha256": "def1375b7900f8b5899935d3d440195d57f654f2af3e58418bb72f3f5052c11d",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/.db/standard/00 - Item DB/Conduits/class_info.py",
+      "git_blob_sha1": "d11359a7bf9cc1041137e160c6133f3778daf8d6",
+      "bytes": 1626,
+      "sha256": "2d74a9531ab583390665fe2cf2f20d3ff16dd7fbf248d48e0645035a6ff15570",
+      "full_read": true
+    },
+    {
+      "path": ".contrib/.db/standard/00 - Item DB/itemDB.json",
+      "git_blob_sha1": "7a337922ad0098df4288fc2ac513d346be00180a",
+      "source_bytes": 23776743,
+      "read_bytes": 16384,
+      "prefix_sha256": "9b3b91cb6f1ddd5978984dcbf0df768f5d8b1a45e6df38ceff74f30123bf981f",
+      "http_status": 206,
+      "range": "bytes=0-16383",
+      "full_read": false,
+      "imported": false
+    },
+    {
+      "path": ".contrib/.db/standard/00 - Item DB/questDB.json",
+      "git_blob_sha1": "d0ea2e08fa6b5a9b15b605cf77fa80f2ce5ab047",
+      "source_bytes": 2312303,
+      "read_bytes": 16384,
+      "prefix_sha256": "9abc96ede497912aae3458e35f71e1c236ca7cb7a487de8dc8db2f45413e7d3d",
+      "http_status": 206,
+      "range": "bytes=0-16383",
+      "full_read": false,
+      "imported": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "DEP-01",
+      "fact": "Required raw JSON inputs loaded recursively before Lua then Framework.Merge",
+      "source": "Program.cs",
+      "lines": [
+        339,
+        355,
+        1076,
+        1094
+      ]
+    },
+    {
+      "id": "DEP-02",
+      "fact": "External API harvester converts incoming item/quest payloads into itemDB-/questDB- JSON; compare tool merges versions. This is an upstream pipeline, not row-level proof for entire current files.",
+      "source": "LegacyHarvesterProgram.cs",
+      "lines": [
+        614,
+        1530,
+        1578
+      ]
+    },
+    {
+      "id": "DEP-03",
+      "fact": "Prefixes contain item metadata/spell links/binding and quest reward item links/requirements/repeatable; full recipe output quantities or PMF are not established",
+      "read_scope": "two16384byteprefixes"
+    },
+    {
+      "id": "DEP-04",
+      "fact": "MissingDB enumeration generator references Wago CSV and parser debug difference",
+      "source": "Harvester.py",
+      "lines": [
+        323,
+        397,
+        421,
+        807,
+        810
+      ]
+    },
+    {
+      "id": "DEP-05",
+      "fact": "ATT ProcessInternalCommandBlock default closes current block for unrecognized command; actual #end/#endfif spellings are supported by that code path. No source execution was used.",
+      "source": "Program.cs",
+      "lines": [
+        1035,
+        1050
+      ]
+    }
+  ],
+  "no_blizzard_api_requests": true,
+  "no_generator_execution": true,
+  "no_bulk_json_import": true,
+  "required_json_rights": "provenance_and_reuse_unresolved_not_declared_illegal",
+  "purpose": "Material dependencies remain visible in scope; source claims do not inherit a blanket MIT data license."
+}

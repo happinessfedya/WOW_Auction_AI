@@ -1,0 +1,206 @@
+{
+  "probe_id": "20261026T080643.116605Z",
+  "capture_at_utc": "2026-10-26T08:08:26.815387+00:00",
+  "sources": [
+    {
+      "addon": "GX",
+      "before_sha256": "e342762e43d61424fd1b6542090b274a78c98b7218c97abcfcdd866cd44f29fd",
+      "after_sha256": "d1f5f72d4ed6f09483628b7f00a99cafa4f4a4aa820f6dbdf0b5813592db9311",
+      "bytes_before": 553,
+      "bytes_after": 553,
+      "file_written_at_before_utc": "2026-10-26T08:03:55.279861+00:00",
+      "file_written_at_after_utc": "2026-10-26T08:07:12.929140+00:00"
+    },
+    {
+      "addon": "BagSync",
+      "before_sha256": "b9b166b1915521f4a620904d9ff2d7aefb2acee3eafb71976292ccd97cbd045f",
+      "after_sha256": "5e0fb92b53579a4ea4117f65ab682cc76e11f58e69b2c402e69fbd65feea7b53",
+      "bytes_before": 27613,
+      "bytes_after": 28015,
+      "file_written_at_before_utc": "2026-10-26T08:03:55.195825+00:00",
+      "file_written_at_after_utc": "2026-10-26T08:07:12.848349+00:00"
+    },
+    {
+      "addon": "TradeSkillMaster",
+      "before_sha256": "de926840fe4487ba3a9cee6232e35cabc7e83a5c864ca915534178a7b15626ae",
+      "after_sha256": "5f464a51b30371b0a2d3d4e5d8cf68b0e181d994eda87e3a1fc05540c32d1aa7",
+      "bytes_before": 1058704,
+      "bytes_after": 1505215,
+      "file_written_at_before_utc": "2026-10-26T08:03:45.635088+00:00",
+      "file_written_at_after_utc": "2026-10-26T08:07:12.952660+00:00"
+    },
+    {
+      "addon": "CraftSim",
+      "before_sha256": "d5fc842a7499d14636830e2d56f5709b438bb9e6707e026d88573b8294edc074",
+      "after_sha256": "7d19a2754528cfb6d05c7c89b2c09a306926e2a6250d4cd97f1242bb590a5d80",
+      "bytes_before": 269336,
+      "bytes_after": 269336,
+      "file_written_at_before_utc": "2026-10-26T08:03:55.209067+00:00",
+      "file_written_at_after_utc": "2026-10-26T08:07:12.862346+00:00"
+    }
+  ],
+  "ledger_rows": [
+    {
+      "family": "csvBuys",
+      "item_string": "i:6532",
+      "quantity": 1,
+      "stack_size": 1,
+      "unit_amount_copper": 100,
+      "amount_copper": 100,
+      "price_semantics": "payment_unit_rounded",
+      "event_at": 1793001933,
+      "event_time_semantics": "mail_derived_event_estimate",
+      "method": "Auction",
+      "money_type": null,
+      "classification": "purchase",
+      "rounding_bounds_status": "unknown_original_invoice_allocation"
+    },
+    {
+      "family": "csvExpense",
+      "item_string": null,
+      "quantity": null,
+      "stack_size": null,
+      "unit_amount_copper": null,
+      "amount_copper": 27084,
+      "price_semantics": "reported_total_copper",
+      "event_at": 1793001969,
+      "event_time_semantics": "source_reported_event_time",
+      "method": null,
+      "money_type": "Repair Bill",
+      "classification": "reported_expense",
+      "rounding_bounds_status": "reported_total"
+    }
+  ],
+  "ledger_counts": {
+    "csvSales": 0,
+    "csvBuys": 1,
+    "csvIncome": 0,
+    "csvExpense": 1,
+    "csvExpired": 0,
+    "csvCancelled": 0
+  },
+  "ledger_reconciliation_event_count": 2,
+  "cash_changes": [
+    {
+      "owner_kind": "character",
+      "delta_copper": 0,
+      "observed_at": 1792970066,
+      "source_amounts_agree": true
+    },
+    {
+      "owner_kind": "warband",
+      "delta_copper": 0,
+      "observed_at": 1792972997,
+      "source_amounts_agree": true
+    },
+    {
+      "owner_kind": "character",
+      "delta_copper": 0,
+      "observed_at": 1792972970,
+      "source_amounts_agree": true
+    },
+    {
+      "owner_kind": "character",
+      "delta_copper": -27184,
+      "observed_at": 1793001970,
+      "source_amounts_agree": true
+    }
+  ],
+  "cash_disagreement_count": 0,
+  "reported_ledger_outflow_copper": 27184,
+  "cash_delta_copper": -27184,
+  "ledger_outflow_equals_wallet_decrease": true,
+  "pipeline_import": {
+    "first_statuses": [
+      "accepted",
+      "accepted",
+      "accepted",
+      "accepted"
+    ],
+    "repeat_statuses": [
+      "unchanged",
+      "unchanged",
+      "unchanged",
+      "unchanged"
+    ],
+    "new_snapshots": 4,
+    "repeat_new_snapshots": 0,
+    "tsm_current_rows": 2,
+    "tsm_hash_matches_captured_after": true
+  },
+  "save_time_buys": 1793002032,
+  "save_time_semantics": "first_serialization_not_mail_collection",
+  "exact_mail_collection_timestamp": null,
+  "item_name_from_local_cache": "Яркая блесна",
+  "development_validation": {
+    "verified_at_utc": "2026-10-26T08:29:50.291171+00:00",
+    "probe_id": "20261026T080643.116605Z",
+    "mode": "isolated_replay_of_saved_real_bytes",
+    "replay_times_are_current_not_backdated": true,
+    "replay_file_mtime_is_copy_metadata_not_original_event_time": true,
+    "before_statuses": [
+      "accepted",
+      "accepted",
+      "accepted",
+      "accepted"
+    ],
+    "counts_before": {
+      "snapshots": 4,
+      "ledger_changes": 1
+    },
+    "after_statuses": [
+      "accepted",
+      "accepted",
+      "accepted",
+      "accepted"
+    ],
+    "cash_deltas_copper_sorted": [
+      -27184,
+      0,
+      0,
+      0
+    ],
+    "ledger_outflow_copper": 27184,
+    "counts_after": {
+      "snapshots": 8,
+      "ledger_changes": 2
+    },
+    "repeat_statuses": [
+      "unchanged",
+      "unchanged",
+      "unchanged",
+      "unchanged"
+    ],
+    "repeat_new_snapshots": 0,
+    "repeat_new_ledger_changes": 0,
+    "nonempty_ledger_rows": 2,
+    "restored_repeat_statuses": [
+      "unchanged",
+      "unchanged",
+      "unchanged",
+      "unchanged"
+    ],
+    "backup_restore_projection_equality": true,
+    "raw_source_hashes_and_mtimes_unchanged": true,
+    "active_database_contains_captured_two_rows": true,
+    "result": "PASS",
+    "counts_semantics": "ledger_changes counts snapshot-level batches, not individual operation events"
+  },
+  "automated_regression": {
+    "test": "tests.test_ingestion_storage.IngestionTests.test_delayed_savedvariables_purchase_and_repair_reconcile_without_duplicates",
+    "fixture_type": "synthetic_reconstruction_no_private_rows",
+    "target_module_tests": 24,
+    "full_suite_tests": 122,
+    "full_suite_result": "PASS",
+    "full_suite_seconds": 5.379
+  },
+  "application_code_changed_for_new_sample": false,
+  "remaining_real_coverage": [
+    "sales_and_net_invoice",
+    "income_and_transfers",
+    "refunds",
+    "expired_and_cancelled_auctions",
+    "existing_aggregate_mutation",
+    "full_cost_chain_and_pnl"
+  ]
+}
